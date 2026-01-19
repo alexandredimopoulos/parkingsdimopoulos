@@ -2,7 +2,6 @@ name: Update parking data (hourly)
 
 on:
   schedule:
-    # Toutes les heures (UTC). Choisis 5 minutes après l'heure pour éviter les pics.
     - cron: '5 * * * *'
   workflow_dispatch:
 
@@ -36,8 +35,11 @@ jobs:
       - name: Fetch latest snapshot + append CSV
         run: python scripts/update_data.py
 
-      - name: Recompute correlations
+      - name: Recompute correlations (7/14/21/30)
         run: python scripts/analyze_correlations.py
+
+      - name: Compute saturation + city curves (last 7 days)
+        run: python scripts/analyze_saturation.py
 
       - name: Commit and push (if changed)
         run: |

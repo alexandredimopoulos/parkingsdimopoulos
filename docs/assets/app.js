@@ -1,11 +1,11 @@
 /* docs/assets/app.js
  *
- * - Charge les JSON générés par les scripts Python (snapshot + correlations + metadata)
+ * - Charge les JSON générés par les scripts Python (snapshot + correlations + saturation)
  * - Rend :
  *   1) tableaux temps réel
  *   2) carte Leaflet (voiture + vélo)
- *   3) heatmap Plotly + classement + filtres
- *   4) sélection de fenêtre temporelle (7/14/21/30) via correlations_<days>.json
+ *   3) heatmap Plotly + classement + filtres + fenêtre temporelle (7/14/21/30)
+ *   4) saturation 7 jours : 2 classements + 2 courbes ville (voiture & vélo)
  */
 
 function $(id) {
@@ -78,9 +78,7 @@ function renderRealtimeTables(snapshot) {
 
   function applyFilter(inputEl, list, targetBody) {
     const q = (inputEl.value || "").trim().toLowerCase();
-    const filtered = q
-      ? list.filter((x) => String(x.name || "").toLowerCase().includes(q))
-      : list;
+    const filtered = q ? list.filter((x) => String(x.name || "").toLowerCase().includes(q)) : list;
     targetBody.innerHTML = filtered.map((x) => rowHtml(x.name, x.free, x.total)).join("");
   }
 
@@ -104,7 +102,7 @@ function renderMap(snapshot) {
   if (!mapEl) return;
   if (!window.L) return;
 
-  // Evite de recréer si on rerender l'analyse
+  // Ne pas recréer si déjà initialisée
   if (_map) return;
 
   _map = L.map("map").setView([43.6108, 3.8767], 13);
@@ -122,6 +120,7 @@ function renderMap(snapshot) {
 
   function refreshVisibility() {
     if (!_map) return;
+
     if (showCars?.checked) _map.addLayer(_carsLayer);
     else _map.removeLayer(_carsLayer);
 
@@ -151,9 +150,96 @@ function renderMap(snapshot) {
 }
 
 /* =========================
+ *  SATURATION (7 jours)
+ * ========================= */
+async function loadSaturation7d() {
+  return await fetchJson("./data/saturation_7d.json");
+}
+
+function pct(x) {
+  if (x === null || x === undefined) return "—";
+  return `${(Number(x) * 100).toFixed(1)}%`;
+}
+
+function occ(x) {
+  if (x === null || x === undefined) return "—";
+  return `${(Number(x) * 100).toFixed(1)}%`;
+}
+
+function renderSaturationTables(sat) {
+  const carsBody = $("satCarsTable");
+  const bikesBody = $("satBikesTable");
+  if (!carsBody || !bikesBody) return;
+
+  const cars = sat?.rankings?.cars || [];
+  const bikes = sat?.rankings?.bikes || [];
+
+  const topCars = cars.slice(0, 15);
+  const topBikes = bikes.slice(0, 15);
+
+  carsBody.innerHTML = topCars
+    .map(
+      (p) => `<tr>
+        <td>${escapeHtml(p.name)}</td>
+        <td class="num">${occ(p.mean_occ)}</td>
+        <td class="num">${pct(p.sat_pct)}</td>
+        <td class="num">${occ(p.max_occ)}</td>
+      </tr>`
+    )
+    .join("");
+
+  bikesBody.innerHTML = topBikes
+    .map(
+      (p) => `<tr>
+        <td>${escapeHtml(p.name)}</td>
+        <td class="num">${occ(p.mean_occ)}</td>
+        <td class="num">${pct(p.sat_pct)}</td>
+        <td class="num">${occ(p.max_occ)}</td>
+      </tr>`
+    )
+    .join("");
+}
+
+function renderCityCurvePlot(containerId, curve, title) {
+  const el = $(containerId);
+  if (!el) return;
+
+  if (!window.Plotly) {
+    el.innerHTML = "<p class='muted'>Plotly non chargé.</p>";
+    return;
+  }
+
+  const x = curve?.timestamps || [];
+  const y = (curve?.avg_occ || []).map((v) => Number(v) * 100); // en %
+
+  const data = [
+    {
+      x,
+      y,
+      type: "scatter",
+      mode: "lines",
+      hovertemplate: "%{y:.1f}%<extra></extra>",
+    },
+  ];
+
+  const layout = {
+    title: { text: title, font: { size: 14 } },
+    margin: { l: 50, r: 20, t: 40, b: 40 },
+    yaxis: { ticksuffix: "%", rangemode: "tozero" },
+    xaxis: { automargin: true },
+  };
+
+  Plotly.newPlot(el, data, layout, { displayModeBar: false, responsive: true });
+}
+
+function renderCityCurves(sat) {
+  renderCityCurvePlot("cityCarsPlot", sat?.city_curves?.cars, "Voitures — occupation moyenne (7 jours)");
+  renderCityCurvePlot("cityBikesPlot", sat?.city_curves?.bikes, "Vélos — occupation moyenne (7 jours)");
+}
+
+/* =========================
  *  CORRELATIONS / HEATMAP
  * ========================= */
-
 function getFilters() {
   const maxDistance = Number($("maxDistance")?.value ?? 2);
   const minAbsCorr = Number($("minAbsCorr")?.value ?? 0.25);
@@ -212,12 +298,10 @@ function renderHeatmap(corr, filters) {
 
   const cars = Array.isArray(corr.cars) ? corr.cars : [];
   const bikes = Array.isArray(corr.bikes) ? corr.bikes : [];
-  const matrix = Array.isArray(corr.matrix) ? corr.matrix : [];
-
-  // On fabrique une matrice "filtrée" en utilisant corr.pairs
-  // pour vérifier distance, abs corr, négatif.
-  const pairMap = new Map();
   const pairs = Array.isArray(corr.pairs) ? corr.pairs : [];
+
+  // Map (car,bike) -> pair info (incl distance)
+  const pairMap = new Map();
   for (const p of pairs) {
     pairMap.set(`${p.car}|||${p.bike}`, p);
   }
@@ -319,14 +403,25 @@ async function loadCorrelations(days) {
 async function init() {
   updateFilterLabels();
 
-  // Snapshot temps réel (toujours le même fichier)
+  // Snapshot temps réel
   const snapshot = await fetchJson("./data/latest_snapshot.json");
   renderRealtimeTables(snapshot);
   renderMap(snapshot);
 
-  // Infos en haut
+  // Haut de page
   $("lastUpdate").textContent = fmtDateTime(snapshot.generated_at);
 
+  // Saturation + courbes ville (7 jours)
+  try {
+    const sat = await loadSaturation7d();
+    renderSaturationTables(sat);
+    renderCityCurves(sat);
+  } catch (e) {
+    console.error(e);
+    // si saturation_7d.json n'existe pas encore, on ne casse pas
+  }
+
+  // Corrélations
   const windowSelect = $("windowSelect");
   const selectedDays = windowSelect ? Number(windowSelect.value) : 21;
 
@@ -343,13 +438,12 @@ async function init() {
     renderPairsTable(pairs, filters);
   }
 
-  // Chargement initial
   try {
     corr = await loadCorrelations(selectedDays);
   } catch (e) {
     console.error(e);
     $("analysisInfo").textContent =
-      "Corrélations indisponibles (génère correlations_7/14/21/30.json côté workflow).";
+      "Corrélations indisponibles (vérifie docs/data/correlations_7/14/21/30.json).";
     return;
   }
 
@@ -363,7 +457,7 @@ async function init() {
         rerenderAnalysis();
       } catch (e) {
         console.error(e);
-        alert("Impossible de charger les corrélations pour cette fenêtre. Vérifie les fichiers correlations_<days>.json.");
+        alert("Impossible de charger les corrélations pour cette fenêtre. Vérifie correlations_<days>.json.");
       }
     });
   }

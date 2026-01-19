@@ -24,6 +24,64 @@
     <!-- App -->
     <script src="./assets/app.js" defer></script>
   </head>
+  <section>
+  <h2>Saturation (7 derniers jours)</h2>
+  <p class="muted">
+    Classement des parkings les plus saturés (occupation moyenne élevée + temps passé au-dessus de 90%).
+  </p>
+
+  <div class="grid-2">
+    <div>
+      <h3>Parkings voitures les plus saturés</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Parking</th>
+              <th class="num">Occupation moyenne</th>
+              <th class="num">% temps ≥ 90%</th>
+              <th class="num">Max</th>
+            </tr>
+          </thead>
+          <tbody id="satCarsTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h3>Stations vélos les plus saturées</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Station</th>
+              <th class="num">Occupation moyenne</th>
+              <th class="num">% temps ≥ 90%</th>
+              <th class="num">Max</th>
+            </tr>
+          </thead>
+          <tbody id="satBikesTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <h3>Occupation moyenne à Montpellier (7 jours)</h3>
+  <p class="muted small">
+    Courbes calculées à partir de la moyenne de l’occupation de tous les parkings/stations disponibles à chaque heure.
+  </p>
+
+  <div class="grid-2">
+    <div>
+      <h4>Voitures — occupation moyenne</h4>
+      <div id="cityCarsPlot" class="plot"></div>
+    </div>
+    <div>
+      <h4>Vélos — occupation moyenne</h4>
+      <div id="cityBikesPlot" class="plot"></div>
+    </div>
+  </div>
+</section>
 
   <body>
     <header class="container">
