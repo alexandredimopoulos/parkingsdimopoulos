@@ -1,416 +1,416 @@
 {
-  "generated_at": "2026-01-18T17:43:00",
+  "generated_at": "2026-01-19T12:41:37.284142+01:00",
   "sources": {
-    "cars": null,
-    "bikes": null
+    "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
+    "bikes": "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000"
   },
   "Voiture": {
     "Antigone": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60871606,
+      "lon": 3.88881893,
+      "id": "urn:ngsi-ld:parking:001"
     },
     "Arc de Triomphe": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.61100267,
+      "lon": 3.8732007,
+      "id": "urn:ngsi-ld:parking:002"
     },
     "Charles de Gaulle": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.6285421,
+      "lon": 3.8977621,
+      "id": "urn:ngsi-ld:parking:022"
     },
     "Circe": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60495377,
+      "lon": 3.9178495,
+      "id": "urn:ngsi-ld:parking:011"
     },
     "Comedie": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60856092,
+      "lon": 3.87976196,
+      "id": "urn:ngsi-ld:parking:003"
     },
     "Corum": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.61388821,
+      "lon": 3.88225773,
+      "id": "urn:ngsi-ld:parking:004"
     },
     "Euromedecine": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.63895359,
+      "lon": 3.82772365,
+      "id": "urn:ngsi-ld:parking:017"
     },
     "Europa": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60784971,
+      "lon": 3.89253074,
+      "id": "urn:ngsi-ld:parking:005"
     },
     "Foch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.61074912,
+      "lon": 3.87657084,
+      "id": "urn:ngsi-ld:parking:006"
     },
     "Gambetta": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60695138,
+      "lon": 3.87137436,
+      "id": "urn:ngsi-ld:parking:007"
     },
     "Garcia Lorca": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.59098509,
+      "lon": 3.8907158,
+      "id": "urn:ngsi-ld:parking:012"
     },
     "Gare": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.604024,
+      "lon": 3.87891,
+      "id": "urn:ngsi-ld:parking:008"
     },
     "Gaumont EST": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.604526,
+      "lon": 3.91529,
+      "id": "urn:ngsi-ld:parking:020"
     },
     "Gaumont OUEST": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.604824,
+      "lon": 3.914158,
+      "id": "urn:ngsi-ld:parking:021"
     },
     "Gaumont-Circe": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60495377,
+      "lon": 3.9178495,
+      "id": "urn:ngsi-ld:parking:025"
     },
     "Mosson": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.61623716,
+      "lon": 3.81966554,
+      "id": "urn:ngsi-ld:parking:013"
     },
     "Occitanie": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.63456232,
+      "lon": 3.84859796,
+      "id": "urn:ngsi-ld:parking:018"
     },
     "Pitot": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.61224494,
+      "lon": 3.87019117,
+      "id": "urn:ngsi-ld:parking:010"
     },
     "Polygone": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.607697,
+      "lon": 3.88515,
+      "id": "urn:ngsi-ld:parking:024"
     },
     "Sabines": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.58383263,
+      "lon": 3.8602246,
+      "id": "urn:ngsi-ld:parking:014"
     },
     "Sablassou": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.63419194,
+      "lon": 3.92229536,
+      "id": "urn:ngsi-ld:parking:015"
     },
     "Saint Jean Le Sec": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.57082225,
+      "lon": 3.8379312,
+      "id": "urn:ngsi-ld:parking:016"
     },
     "Triangle": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60923384,
+      "lon": 3.88184418,
+      "id": "urn:ngsi-ld:parking:009"
     },
     "Vicarello": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.63286,
+      "lon": 3.898411,
+      "id": "urn:ngsi-ld:parking:019"
     }
   },
   "Velo": {
     "Aiguelongue": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.626163,
+      "lon": 3.882492,
+      "id": "urn:ngsi-ld:station:039"
     },
     "Albert 1er - Cathédrale": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.614005,
+      "lon": 3.873218,
+      "id": "urn:ngsi-ld:station:056"
     },
     "Antigone centre": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.607942,
+      "lon": 3.890634,
+      "id": "urn:ngsi-ld:station:016"
     },
     "Beaux-Arts": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.616698,
+      "lon": 3.884981,
+      "id": "urn:ngsi-ld:station:014"
     },
     "Boutonnet": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.622629,
+      "lon": 3.868375,
+      "id": "urn:ngsi-ld:station:012"
     },
     "Celleneuve": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.61467,
+      "lon": 3.832624,
+      "id": "urn:ngsi-ld:station:044"
     },
     "Charles Flahault": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.622038,
+      "lon": 3.86672,
+      "id": "urn:ngsi-ld:station:030"
     },
     "Cité Mion": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.601143,
+      "lon": 3.884373,
+      "id": "urn:ngsi-ld:station:024"
     },
     "Comedie Baudin": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.608717,
+      "lon": 3.880787,
+      "id": "urn:ngsi-ld:station:060"
     },
     "Comédie": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.608148,
+      "lon": 3.878778,
+      "id": "urn:ngsi-ld:station:002"
     },
     "Corum": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.613989,
+      "lon": 3.8816,
+      "id": "urn:ngsi-ld:station:005"
     },
     "Deux Ponts - Gare Saint-Roch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.604319,
+      "lon": 3.880916,
+      "id": "urn:ngsi-ld:station:053"
     },
     "Emile Combes": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.616742,
+      "lon": 3.87998,
+      "id": "urn:ngsi-ld:station:013"
     },
     "Euromédecine": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.639119,
+      "lon": 3.828199,
+      "id": "urn:ngsi-ld:station:041"
     },
     "Fac de Lettres": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.630437,
+      "lon": 3.869539,
+      "id": "urn:ngsi-ld:station:038"
     },
     "FacdesSciences": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.631318,
+      "lon": 3.861299,
+      "id": "urn:ngsi-ld:station:037"
     },
     "Foch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.610989,
+      "lon": 3.873345,
+      "id": "urn:ngsi-ld:station:007"
     },
     "Gambetta": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.607106,
+      "lon": 3.870693,
+      "id": "urn:ngsi-ld:station:020"
     },
     "Garcia Lorca": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.590757,
+      "lon": 3.890616,
+      "id": "urn:ngsi-ld:station:033"
     },
     "Halles Castellane": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.609935,
+      "lon": 3.877208,
+      "id": "urn:ngsi-ld:station:008"
     },
     "Hôtel de Ville": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.599088,
+      "lon": 3.894866,
+      "id": "urn:ngsi-ld:station:004"
     },
     "Hôtel du Département": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.621682,
+      "lon": 3.83477,
+      "id": "urn:ngsi-ld:station:048"
     },
     "Jardin de la Lironde": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60585,
+      "lon": 3.911576,
+      "id": "urn:ngsi-ld:station:045"
     },
     "Jean de Beins": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.609857,
+      "lon": 3.883884,
+      "id": "urn:ngsi-ld:station:061"
     },
     "Jeu de Mail des Abbés": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.619701,
+      "lon": 3.883831,
+      "id": "urn:ngsi-ld:station:040"
     },
     "Les Arceaux": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.612659,
+      "lon": 3.867734,
+      "id": "urn:ngsi-ld:station:023"
     },
     "Les Aubes": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.618692,
+      "lon": 3.893844,
+      "id": "urn:ngsi-ld:station:015"
     },
     "Louis Blanc": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.614642,
+      "lon": 3.877648,
+      "id": "urn:ngsi-ld:station:019"
     },
     "Malbosc": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.633679,
+      "lon": 3.832861,
+      "id": "urn:ngsi-ld:station:035"
     },
     "Marie Caizergues": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.619871,
+      "lon": 3.873812,
+      "id": "urn:ngsi-ld:station:042"
     },
     "Médiathèque Emile Zola": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.608218,
+      "lon": 3.89314,
+      "id": "urn:ngsi-ld:station:017"
     },
     "Nombre d Or": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.607859,
+      "lon": 3.886644,
+      "id": "urn:ngsi-ld:station:018"
     },
     "Nouveau Saint-Roch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.599817,
+      "lon": 3.875757,
+      "id": "urn:ngsi-ld:station:025"
     },
     "Observatoire": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.606301,
+      "lon": 3.87724,
+      "id": "urn:ngsi-ld:station:009"
     },
     "Occitanie": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.635689,
+      "lon": 3.849597,
+      "id": "urn:ngsi-ld:station:036"
     },
     "Odysseum": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.603727,
+      "lon": 3.918979,
+      "id": "urn:ngsi-ld:station:027"
     },
     "Parvis Jules Ferry - Gare Saint-Roch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.603889,
+      "lon": 3.879362,
+      "id": "urn:ngsi-ld:station:050"
     },
     "Place Albert 1er - St Charles": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.616768,
+      "lon": 3.873375,
+      "id": "urn:ngsi-ld:station:006"
     },
     "Place Viala": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.616812,
+      "lon": 3.855075,
+      "id": "urn:ngsi-ld:station:047"
     },
     "Plan Cabanes": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.608491,
+      "lon": 3.868389,
+      "id": "urn:ngsi-ld:station:011"
     },
     "Pont de Lattes - Gare Saint-Roch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.606036,
+      "lon": 3.882393,
+      "id": "urn:ngsi-ld:station:051"
     },
     "Port Marianne": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.60032,
+      "lon": 3.89851,
+      "id": "urn:ngsi-ld:station:021"
     },
     "Providence - Ovalie": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.588239,
+      "lon": 3.853421,
+      "id": "urn:ngsi-ld:station:054"
     },
     "Prés d Arènes": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.59048,
+      "lon": 3.884611,
+      "id": "urn:ngsi-ld:station:032"
     },
     "Père Soulas": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.621983,
+      "lon": 3.855603,
+      "id": "urn:ngsi-ld:station:046"
     },
     "Pérols Etang de l Or": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.558351,
+      "lon": 3.963412,
+      "id": "urn:ngsi-ld:station:055"
     },
     "Renouvier": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.603553,
+      "lon": 3.867884,
+      "id": "urn:ngsi-ld:station:026"
     },
     "Richter": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.603424,
+      "lon": 3.899263,
+      "id": "urn:ngsi-ld:station:029"
     },
     "Rondelet": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.603038,
+      "lon": 3.875796,
+      "id": "urn:ngsi-ld:station:010"
     },
     "Rue Jules Ferry - Gare Saint-Roch": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.605366,
+      "lon": 3.881346,
+      "id": "urn:ngsi-ld:station:001"
     },
     "Sabines": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.584211,
+      "lon": 3.860031,
+      "id": "urn:ngsi-ld:station:043"
     },
     "Saint-Denis": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.605021,
+      "lon": 3.875065,
+      "id": "urn:ngsi-ld:station:028"
     },
     "Saint-Guilhem - Courreau": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.608996,
+      "lon": 3.872752,
+      "id": "urn:ngsi-ld:station:057"
     },
     "Sud De France": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.59562,
+      "lon": 3.9235,
+      "id": "urn:ngsi-ld:station:059"
     },
     "Tonnelles": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.615155,
+      "lon": 3.839466,
+      "id": "urn:ngsi-ld:station:049"
     },
     "Vert Bois": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.63543,
+      "lon": 3.871179,
+      "id": "urn:ngsi-ld:station:034"
     },
     "Voltaire": {
-      "lat": null,
-      "lon": null,
-      "id": null
+      "lat": 43.603767,
+      "lon": 3.888659,
+      "id": "urn:ngsi-ld:station:031"
     }
   }
 }
