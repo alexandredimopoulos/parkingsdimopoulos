@@ -3,45 +3,71 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Parkings Montpellier — Corrélations voiture ↔ vélo</title>
+    <title>Parkings Montpellier — Voiture ↔ Vélo</title>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="./assets/style.css" />
-    <!-- Plotly pour la heatmap (CDN) -->
+
+    <!-- Plotly (heatmap) -->
     <script src="https://cdn.plot.ly/plotly-2.30.0.min.js" defer></script>
+
+    <!-- Leaflet (carte) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      defer
+    ></script>
+
+    <!-- App -->
     <script src="./assets/app.js" defer></script>
   </head>
+
   <body>
     <header class="container">
-      <h1>Parkings Montpellier — Corrélations voiture ↔ vélo</h1>
+      <h1>Analyse des parkings à Montpellier</h1>
       <p class="muted">
-        Données mises à jour automatiquement par GitHub Actions (toutes les heures) et publiées sur GitHub Pages.
+        Corrélations entre parkings voitures et stations vélos à partir des
+        données Open Data, mises à jour automatiquement.
       </p>
+
       <div class="cards">
         <div class="card">
           <div class="card-title">Dernière mise à jour</div>
-          <div id="lastUpdate" class="card-value">…</div>
-          <div id="sources" class="card-foot muted">…</div>
+          <div id="lastUpdate" class="card-value">—</div>
         </div>
+
         <div class="card">
-          <div class="card-title">Analyse</div>
-          <div id="analysisInfo" class="card-value">…</div>
-          <div class="card-foot muted">Corrélations sur les variations (Δ) de places libres.</div>
+          <div class="card-title">Fenêtre d’analyse</div>
+          <div id="analysisInfo" class="card-value">—</div>
         </div>
       </div>
     </header>
 
     <main class="container">
+      <!-- ===================== -->
+      <!-- 1. DONNÉES TEMPS RÉEL -->
+      <!-- ===================== -->
       <section>
         <h2>Disponibilités en temps réel</h2>
+
         <div class="grid-2">
           <div>
             <h3>Parkings voitures</h3>
-            <input id="searchCars" class="search" type="search" placeholder="Rechercher un parking voiture…" />
+            <input
+              id="searchCars"
+              class="search"
+              type="search"
+              placeholder="Rechercher un parking voiture"
+            />
             <div class="table-wrap">
               <table>
                 <thead>
                   <tr>
                     <th>Nom</th>
-                    <th class="num">Places libres</th>
+                    <th class="num">Libres</th>
                     <th class="num">Total</th>
                   </tr>
                 </thead>
@@ -51,8 +77,13 @@
           </div>
 
           <div>
-            <h3>Stations vélo (Vélomagg)</h3>
-            <input id="searchBikes" class="search" type="search" placeholder="Rechercher une station vélo…" />
+            <h3>Stations vélos</h3>
+            <input
+              id="searchBikes"
+              class="search"
+              type="search"
+              placeholder="Rechercher une station vélo"
+            />
             <div class="table-wrap">
               <table>
                 <thead>
@@ -65,45 +96,85 @@
                 <tbody id="bikesTable"></tbody>
               </table>
             </div>
-            <p class="muted small">
-              Pour les vélos, on affiche les <strong>places de stationnement disponibles</strong> (freeSlotNumber).
-            </p>
           </div>
         </div>
       </section>
 
+      <!-- ===================== -->
+      <!-- 2. CARTE -->
+      <!-- ===================== -->
       <section>
-        <h2>Corrélations et logique géographique</h2>
+        <h2>Carte des parkings</h2>
         <p class="muted">
-          On calcule la corrélation de Pearson entre les variations (Δ) de places libres.
-          Une corrélation <strong>négative</strong> indique que lorsque l'un augmente, l'autre diminue (et inversement).
+          Localisation des parkings voitures et des stations vélos.
+        </p>
+
+        <div id="map" class="map"></div>
+
+        <div class="controls">
+          <label><input id="showCars" type="checkbox" checked /> Voitures</label>
+          <label><input id="showBikes" type="checkbox" checked /> Vélos</label>
+        </div>
+      </section>
+
+      <!-- ===================== -->
+      <!-- 3. CORRÉLATIONS -->
+      <!-- ===================== -->
+      <section>
+        <h2>Corrélations voiture ↔ vélo</h2>
+
+        <p class="muted">
+          Analyse basée sur les variations de places libres (Δ) et la
+          corrélation de Pearson.
         </p>
 
         <div class="controls">
           <label>
+            Fenêtre temporelle
+            <select id="windowSelect" class="select">
+              <option value="7">7 jours</option>
+              <option value="14">14 jours</option>
+              <option value="21" selected>21 jours</option>
+              <option value="30">30 jours</option>
+            </select>
+          </label>
+
+          <label>
             Distance max (km)
-            <input id="maxDistance" type="range" min="0.5" max="6" step="0.5" value="2" />
+            <input
+              id="maxDistance"
+              type="range"
+              min="0.5"
+              max="6"
+              step="0.5"
+              value="2"
+            />
             <span id="maxDistanceValue" class="pill">2 km</span>
           </label>
+
           <label>
             |corrélation| min
-            <input id="minAbsCorr" type="range" min="0" max="1" step="0.05" value="0.25" />
+            <input
+              id="minAbsCorr"
+              type="range"
+              min="0"
+              max="1"
+              step="0.05"
+              value="0.25"
+            />
             <span id="minAbsCorrValue" class="pill">0.25</span>
           </label>
 
           <label>
             <input id="onlyNegative" type="checkbox" checked />
-            corrélation négative seulement
+            Corrélation négative uniquement
           </label>
         </div>
 
-        <h3>Heatmap (voiture × vélo)</h3>
+        <h3>Heatmap</h3>
         <div id="heatmap" class="plot"></div>
-        <p class="muted small">
-          Les cellules vides correspondent à des paires filtrées (distance trop grande / corrélation trop faible / pas assez de points communs).
-        </p>
 
-        <h3>Classement des paires les plus liées</h3>
+        <h3>Classement des parkings liés</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -119,71 +190,11 @@
             <tbody id="pairsTable"></tbody>
           </table>
         </div>
-
-        <details class="details">
-          <summary>Pourquoi une pondération par distance ?</summary>
-          <p>
-            Une corrélation statistique peut apparaître entre deux lieux sans lien réel (effet "ville entière", météo, horaires, etc.).
-            Pour rendre le résultat plus plausible, on réduit le score quand la distance augmente.
-          </p>
-        </details>
-
-        <h3>Classement local (par parking / station)</h3>
-        <div class="grid-2">
-          <div>
-            <h4>Depuis un parking voiture</h4>
-            <select id="carSelect" class="select"></select>
-            <div class="table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Station vélo</th>
-                    <th class="num">Corrélation</th>
-                    <th class="num">Distance (km)</th>
-                    <th class="num">Points</th>
-                    <th class="num">Score</th>
-                  </tr>
-                </thead>
-                <tbody id="carLinks"></tbody>
-              </table>
-            </div>
-          </div>
-
-          <div>
-            <h4>Depuis une station vélo</h4>
-            <select id="bikeSelect" class="select"></select>
-            <div class="table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Parking voiture</th>
-                    <th class="num">Corrélation</th>
-                    <th class="num">Distance (km)</th>
-                    <th class="num">Points</th>
-                    <th class="num">Score</th>
-                  </tr>
-                </thead>
-                <tbody id="bikeLinks"></tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2>Fichiers générés</h2>
-        <ul>
-          <li><a href="./data/latest_snapshot.json">latest_snapshot.json</a> (disponibilités temps réel)</li>
-          <li><a href="./data/correlations.json">correlations.json</a> (corrélations + classements)</li>
-          <li><a href="./data/metadata.json">metadata.json</a> (coordonnées)</li>
-        </ul>
       </section>
     </main>
 
     <footer class="container muted small">
-      <p>
-        Projet SAE / mini-projet — Montpellier Méditerranée Métropole (Open Data). Les données proviennent des endpoints publics (format NGSI/FIWARE).
-      </p>
+      Projet mobilité — Montpellier Méditerranée Métropole — Open Data
     </footer>
   </body>
 </html>
