@@ -1,18 +1,23 @@
-"""Analyse des corrélations voiture ↔ vélo.
+"""Analyse des corrélations voiture ↔ vélo (VERSION TAUX D'OCCUPATION).
 
-Objectif :
-- lire l'historique CSV (data/historique_parkings.csv)
-- calculer la corrélation de Pearson entre variations (Δ) de places libres
-  d'un parking voiture et d'une station vélo
-- intégrer une contrainte géographique (distance) via metadata.json
-- générer des fichiers JSON consommés par le site :
+Changement clé (par rapport à l'ancienne version Δ) :
+- on ne corrèle plus les variations heure par heure,
+- on corrèle le TAUX D'OCCUPATION (en %) dans le temps, comme dans le code de ton pote.
 
+Taux d'occupation = (places occupées) / (places totales)
+                  = (total - libres) / total
+                  = 1 - (libres/total)
+
+Avantages :
+- beaucoup moins bruité que Δ
+- corrélations plus "visibles" et cohérentes
+- toujours rigoureux : Pearson sur séries temporelles
+
+Sorties :
     docs/data/correlations_7.json
     docs/data/correlations_14.json
     docs/data/correlations_21.json
     docs/data/correlations_30.json
-
-Le site permet ensuite de choisir la fenêtre temporelle.
 """
 
 from __future__ import annotations
@@ -37,20 +42,30 @@ from stats_lib import correlation
 from utils import load_json, make_timestamp, max_timestamp_in_csv, read_semicolon_csv, save_json
 
 
-# Fenêtres proposées (en jours) pour le select côté site
 LOOKBACK_OPTIONS = [7, 14, 21, 30]
 
 
-def _load_time_series(csv_rows: List[Dict[str, str]], cutoff_ts: Optional[Any]) -> Dict[str, Dict[str, Dict[Any, int]]]:
-    """Retourne series[type][name][timestamp] = free."""
-    series: Dict[str, Dict[str, Dict[Any, int]]] = {"Voiture": defaultdict(dict), "Velo": defaultdict(dict)}
+def _to_float(x: str) -> Optional[float]:
+    try:
+        return float(x)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def _load_time_series_occupancy(
+    csv_rows: List[Dict[str, str]],
+    cutoff_ts: Optional[Any],
+) -> Dict[str, Dict[str, Dict[Any, float]]]:
+    """Retourne series[type][name][timestamp] = taux_occupation (0..1)."""
+    series: Dict[str, Dict[str, Dict[Any, float]]] = {"Voiture": defaultdict(dict), "Velo": defaultdict(dict)}
 
     for r in csv_rows:
         d = (r.get("Date") or "").strip()
         t = (r.get("Heure") or "").strip()
         typ = (r.get("Type") or "").strip()
         name = (r.get("Nom") or "").strip()
-        free = (r.get("Places_Libres") or "").strip()
+        free_s = (r.get("Places_Libres") or "").strip()
+        total_s = (r.get("Places_Totales") or "").strip()
 
         if not d or not t or not typ or not name:
             continue
@@ -63,33 +78,30 @@ def _load_time_series(csv_rows: List[Dict[str, str]], cutoff_ts: Optional[Any]) 
         if cutoff_ts is not None and ts < cutoff_ts:
             continue
 
-        try:
-            free_i = int(float(free))
-        except ValueError:
+        free = _to_float(free_s)
+        total = _to_float(total_s)
+        if free is None or total is None or total <= 0:
             continue
 
         if typ not in series:
             continue
 
-        # S'il y a des doublons au même timestamp, on garde le dernier
-        series[typ][name][ts] = free_i
+        # taux d'occupation (0..1)
+        occ = 1.0 - (free / total)
+
+        # bornage par sécurité
+        if occ < 0:
+            occ = 0.0
+        if occ > 1:
+            occ = 1.0
+
+        # Si doublon timestamp, on garde le dernier
+        series[typ][name][ts] = occ
 
     return series
 
 
-def _compute_deltas(series: Dict[Any, int]) -> Dict[Any, int]:
-    """Retourne dict timestamp -> delta (t - t-1)."""
-    ts_sorted = sorted(series.keys())
-    deltas: Dict[Any, int] = {}
-    for i in range(1, len(ts_sorted)):
-        t_prev = ts_sorted[i - 1]
-        t_cur = ts_sorted[i]
-        deltas[t_cur] = series[t_cur] - series[t_prev]
-    return deltas
-
-
 def _coord(meta: Dict[str, Any], typ: str, name: str) -> Optional[Tuple[float, float]]:
-    """Extrait (lat, lon) depuis metadata.json."""
     d = meta.get(typ, {}).get(name)
     if not isinstance(d, dict):
         return None
@@ -104,7 +116,6 @@ def _coord(meta: Dict[str, Any], typ: str, name: str) -> Optional[Tuple[float, f
 
 
 def _output_path(days: int) -> Path:
-    # On écrit directement dans docs/data/
     return Path("docs") / "data" / f"correlations_{days}.json"
 
 
@@ -114,32 +125,32 @@ def compute_for_days(
     latest_ts: Optional[Any],
     days: int,
 ) -> Dict[str, Any]:
-    """Calcule l'objet JSON correlations_* pour une fenêtre donnée."""
     cutoff_ts = None
     if latest_ts is not None:
         cutoff_ts = latest_ts - timedelta(days=days)
 
-    series = _load_time_series(csv_rows, cutoff_ts)
+    series = _load_time_series_occupancy(csv_rows, cutoff_ts)
 
-    car_deltas = {name: _compute_deltas(ts_map) for name, ts_map in series["Voiture"].items() if len(ts_map) >= 2}
-    bike_deltas = {name: _compute_deltas(ts_map) for name, ts_map in series["Velo"].items() if len(ts_map) >= 2}
+    cars_series = {name: ts_map for name, ts_map in series["Voiture"].items() if len(ts_map) >= 2}
+    bikes_series = {name: ts_map for name, ts_map in series["Velo"].items() if len(ts_map) >= 2}
 
-    cars = sorted(car_deltas.keys())
-    bikes = sorted(bike_deltas.keys())
+    cars = sorted(cars_series.keys())
+    bikes = sorted(bikes_series.keys())
 
     pairs: List[Dict[str, Any]] = []
 
-    for car_name, car_delta_map in car_deltas.items():
+    for car_name, car_map in cars_series.items():
         car_xy = _coord(meta, "Voiture", car_name)
 
-        for bike_name, bike_delta_map in bike_deltas.items():
-            common_ts = sorted(set(car_delta_map.keys()) & set(bike_delta_map.keys()))
+        for bike_name, bike_map in bikes_series.items():
+            # Alignement temporel strict (mêmes timestamps)
+            common_ts = sorted(set(car_map.keys()) & set(bike_map.keys()))
             n = len(common_ts)
             if n < MIN_COMMON_POINTS:
                 continue
 
-            x = [car_delta_map[ts] for ts in common_ts]
-            y = [bike_delta_map[ts] for ts in common_ts]
+            x = [car_map[ts] for ts in common_ts]   # taux occupation voiture
+            y = [bike_map[ts] for ts in common_ts]  # taux occupation vélo
 
             r = correlation(x, y)
 
@@ -150,7 +161,6 @@ def compute_for_days(
 
             score = abs(r)
             if distance_km is not None:
-                # Pondération géographique (plus c'est loin, plus le score baisse)
                 score = abs(r) * math.exp(-distance_km / DISTANCE_WEIGHT_KM)
 
             pairs.append(
@@ -165,7 +175,6 @@ def compute_for_days(
                 }
             )
 
-    # Pour la heatmap, on fabrique la matrice en s'appuyant sur la liste pairs
     pair_map = {(p["car"], p["bike"]): p for p in pairs}
 
     matrix: List[List[Optional[float]]] = []
@@ -190,6 +199,8 @@ def compute_for_days(
         "lookback_days": days,
         "min_common_points": MIN_COMMON_POINTS,
         "distance_weight_km": DISTANCE_WEIGHT_KM,
+        "method": "pearson_on_occupancy_rate",
+        "occupancy_definition": "occ = 1 - (free/total)",
         "default_filters": {
             "max_distance_km": DEFAULT_MAX_DISTANCE_KM,
             "min_abs_correlation": MIN_ABS_CORRELATION_TO_SHOW,
@@ -206,12 +217,10 @@ def compute_for_days(
 
 
 def main() -> None:
-    # Lecture historique + metadata
     csv_rows = read_semicolon_csv(HISTORY_CSV)
     meta = load_json(METADATA_JSON, default={"Voiture": {}, "Velo": {}})
     latest_ts = max_timestamp_in_csv(HISTORY_CSV)
 
-    # Génération de plusieurs fenêtres
     for days in LOOKBACK_OPTIONS:
         out = compute_for_days(csv_rows, meta, latest_ts, days)
         save_json(_output_path(days), out)
