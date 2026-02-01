@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-01T22:47:43.976748+01:00",
+  "generated_at": "2026-02-01T23:55:36.339990+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -9,7 +9,7 @@
     {
       "id": "urn:ngsi-ld:parking:001",
       "name": "Antigone",
-      "free": 153,
+      "free": 152,
       "total": 239,
       "lat": 43.60871606,
       "lon": 3.88881893
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 176,
+      "free": 184,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1075,
+      "free": 1088,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 421,
+      "free": 451,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 332,
+      "free": 347,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 496,
+      "free": 497,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 512,
+      "free": 533,
       "total": 620,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 491,
+      "free": 501,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 185,
+      "free": 186,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 318,
+      "free": 320,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 49,
+      "free": 50,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -230,7 +230,7 @@
     {
       "id": "urn:ngsi-ld:station:014",
       "name": "Beaux-Arts",
-      "free": 11,
+      "free": 10,
       "total": 16,
       "lat": 43.616698,
       "lon": 3.884981,
@@ -572,7 +572,7 @@
     {
       "id": "urn:ngsi-ld:station:011",
       "name": "Plan Cabanes",
-      "free": 9,
+      "free": 10,
       "total": 12,
       "lat": 43.608491,
       "lon": 3.868389,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 10,
+      "free": 11,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -635,7 +635,7 @@
     {
       "id": "urn:ngsi-ld:station:010",
       "name": "Rondelet",
-      "free": 14,
+      "free": 13,
       "total": 16,
       "lat": 43.603038,
       "lon": 3.875796,
@@ -698,7 +698,7 @@
     {
       "id": "urn:ngsi-ld:station:034",
       "name": "Vert Bois",
-      "free": 15,
+      "free": 14,
       "total": 16,
       "lat": 43.63543,
       "lon": 3.871179,
