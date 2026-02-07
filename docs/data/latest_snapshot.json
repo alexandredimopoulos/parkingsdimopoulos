@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-07T03:05:27.324078+01:00",
+  "generated_at": "2026-02-07T05:38:38.407150+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 166,
+      "free": 170,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1165,
+      "free": 1166,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 421,
+      "free": 460,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 316,
+      "free": 318,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 491,
+      "free": 490,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 500,
+      "free": 526,
       "total": 620,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 201,
+      "free": 206,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 437,
+      "free": 439,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 301,
+      "free": 298,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 240,
+      "free": 238,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 325,
+      "free": 324,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -203,7 +203,7 @@
     {
       "id": "urn:ngsi-ld:station:039",
       "name": "Aiguelongue",
-      "free": 1,
+      "free": 2,
       "total": 8,
       "lat": 43.626163,
       "lon": 3.882492,
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 7,
+      "free": 9,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -248,7 +248,7 @@
     {
       "id": "urn:ngsi-ld:station:044",
       "name": "Celleneuve",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.61467,
       "lon": 3.832624,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 7,
+      "free": 8,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -320,7 +320,7 @@
     {
       "id": "urn:ngsi-ld:station:041",
       "name": "Euromédecine",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.639119,
       "lon": 3.828199,
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 8,
+      "free": 6,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "FacdesSciences",
-      "free": 19,
+      "free": 17,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -356,7 +356,7 @@
     {
       "id": "urn:ngsi-ld:station:020",
       "name": "Gambetta",
-      "free": 4,
+      "free": 5,
       "total": 8,
       "lat": 43.607106,
       "lon": 3.870693,
@@ -401,7 +401,7 @@
     {
       "id": "urn:ngsi-ld:station:045",
       "name": "Jardin de la Lironde",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.60585,
       "lon": 3.911576,
@@ -428,7 +428,7 @@
     {
       "id": "urn:ngsi-ld:station:023",
       "name": "Les Arceaux",
-      "free": 6,
+      "free": 7,
       "total": 8,
       "lat": 43.612659,
       "lon": 3.867734,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 14,
+      "free": 13,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 12,
+      "free": 11,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -491,7 +491,7 @@
     {
       "id": "urn:ngsi-ld:station:025",
       "name": "Nouveau Saint-Roch",
-      "free": 2,
+      "free": 0,
       "total": 8,
       "lat": 43.599817,
       "lon": 3.875757,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 20,
+      "free": 21,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 8,
+      "free": 6,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -590,7 +590,7 @@
     {
       "id": "urn:ngsi-ld:station:021",
       "name": "Port Marianne",
-      "free": 3,
+      "free": 4,
       "total": 16,
       "lat": 43.60032,
       "lon": 3.89851,
@@ -599,7 +599,7 @@
     {
       "id": "urn:ngsi-ld:station:032",
       "name": "Prés d Arènes",
-      "free": 1,
+      "free": 6,
       "total": 8,
       "lat": 43.59048,
       "lon": 3.884611,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
@@ -635,7 +635,7 @@
     {
       "id": "urn:ngsi-ld:station:010",
       "name": "Rondelet",
-      "free": 6,
+      "free": 10,
       "total": 16,
       "lat": 43.603038,
       "lon": 3.875796,
@@ -644,7 +644,7 @@
     {
       "id": "urn:ngsi-ld:station:001",
       "name": "Rue Jules Ferry - Gare Saint-Roch",
-      "free": 8,
+      "free": 6,
       "total": 12,
       "lat": 43.605366,
       "lon": 3.881346,
@@ -707,7 +707,7 @@
     {
       "id": "urn:ngsi-ld:station:031",
       "name": "Voltaire",
-      "free": 1,
+      "free": 0,
       "total": 8,
       "lat": 43.603767,
       "lon": 3.888659,
