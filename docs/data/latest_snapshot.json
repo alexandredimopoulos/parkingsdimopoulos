@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-09T21:54:07.566961+01:00",
+  "generated_at": "2026-02-09T22:39:45.407840+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 148,
+      "free": 154,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 131,
+      "free": 130,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1121,
+      "free": 1133,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 331,
+      "free": 353,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 309,
+      "free": 314,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 434,
+      "free": 455,
       "total": 620,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 186,
+      "free": 196,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 290,
+      "free": 271,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 296,
+      "free": 301,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 435,
+      "free": 449,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 223,
+      "free": 225,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 304,
+      "free": 306,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -177,7 +177,7 @@
     {
       "id": "urn:ngsi-ld:parking:016",
       "name": "Saint Jean Le Sec",
-      "free": 232,
+      "free": 233,
       "total": 285,
       "lat": 43.57082225,
       "lon": 3.8379312
@@ -230,7 +230,7 @@
     {
       "id": "urn:ngsi-ld:station:014",
       "name": "Beaux-Arts",
-      "free": 8,
+      "free": 7,
       "total": 16,
       "lat": 43.616698,
       "lon": 3.884981,
@@ -311,7 +311,7 @@
     {
       "id": "urn:ngsi-ld:station:013",
       "name": "Emile Combes",
-      "free": 4,
+      "free": 3,
       "total": 8,
       "lat": 43.616742,
       "lon": 3.87998,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "FacdesSciences",
-      "free": 15,
+      "free": 17,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -419,7 +419,7 @@
     {
       "id": "urn:ngsi-ld:station:040",
       "name": "Jeu de Mail des Abbés",
-      "free": 0,
+      "free": 1,
       "total": 8,
       "lat": 43.619701,
       "lon": 3.883831,
@@ -500,7 +500,7 @@
     {
       "id": "urn:ngsi-ld:station:009",
       "name": "Observatoire",
-      "free": 1,
+      "free": 2,
       "total": 8,
       "lat": 43.606301,
       "lon": 3.87724,
@@ -536,7 +536,7 @@
     {
       "id": "urn:ngsi-ld:station:046",
       "name": "Père Soulas",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.621983,
       "lon": 3.855603,
@@ -698,7 +698,7 @@
     {
       "id": "urn:ngsi-ld:station:034",
       "name": "Vert Bois",
-      "free": 13,
+      "free": 14,
       "total": 16,
       "lat": 43.63543,
       "lon": 3.871179,
@@ -707,7 +707,7 @@
     {
       "id": "urn:ngsi-ld:station:031",
       "name": "Voltaire",
-      "free": 4,
+      "free": 3,
       "total": 8,
       "lat": 43.603767,
       "lon": 3.888659,
