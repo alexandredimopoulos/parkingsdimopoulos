@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T03:29:27.723277+01:00",
+  "generated_at": "2026-02-11T06:03:34.271569+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 126,
+      "free": 129,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 443,
+      "free": 445,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 332,
+      "free": 330,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 154,
+      "free": 153,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 501,
+      "free": 500,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 526,
+      "free": 530,
       "total": 620,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 199,
+      "free": 201,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 317,
+      "free": 261,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 301,
+      "free": 294,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 462,
+      "free": 458,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 218,
+      "free": 212,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 316,
+      "free": 313,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 44,
+      "free": 45,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 7,
+      "free": 4,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 8,
+      "free": 9,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "FacdesSciences",
-      "free": 15,
+      "free": 14,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -410,7 +410,7 @@
     {
       "id": "urn:ngsi-ld:station:061",
       "name": "Jean de Beins",
-      "free": 9,
+      "free": 10,
       "total": 16,
       "lat": 43.609857,
       "lon": 3.883884,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 11,
+      "free": 12,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -473,7 +473,7 @@
     {
       "id": "urn:ngsi-ld:station:017",
       "name": "Médiathèque Emile Zola",
-      "free": 6,
+      "free": 7,
       "total": 16,
       "lat": 43.608218,
       "lon": 3.89314,
@@ -599,7 +599,7 @@
     {
       "id": "urn:ngsi-ld:station:032",
       "name": "Prés d Arènes",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.59048,
       "lon": 3.884611,
