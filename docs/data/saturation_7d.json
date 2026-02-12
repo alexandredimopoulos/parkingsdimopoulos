@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:35:00",
+  "generated_at": "2026-02-12T23:34:00",
   "lookback_days": 7,
   "saturation_threshold": 0.9,
   "rankings": {
@@ -13,7 +13,7 @@
       },
       {
         "name": "Arc de Triomphe",
-        "mean_occ": 0.7147,
+        "mean_occ": 0.7138,
         "max_occ": 0.8886,
         "sat_pct": 0.0,
         "n_points": 126
@@ -27,49 +27,49 @@
       },
       {
         "name": "Gambetta",
-        "mean_occ": 0.5932,
+        "mean_occ": 0.5928,
         "max_occ": 0.7212,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Euromedecine",
-        "mean_occ": 0.5665,
+        "mean_occ": 0.566,
         "max_occ": 0.9414,
         "sat_pct": 0.0159,
         "n_points": 126
       },
       {
+        "name": "Charles de Gaulle",
+        "mean_occ": 0.5263,
+        "max_occ": 0.8615,
+        "sat_pct": 0.0,
+        "n_points": 126
+      },
+      {
         "name": "Gare",
-        "mean_occ": 0.5236,
+        "mean_occ": 0.5229,
         "max_occ": 0.7988,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
-        "name": "Charles de Gaulle",
-        "mean_occ": 0.5226,
-        "max_occ": 0.8577,
-        "sat_pct": 0.0,
-        "n_points": 126
-      },
-      {
         "name": "Corum",
-        "mean_occ": 0.5152,
+        "mean_occ": 0.5147,
         "max_occ": 0.9812,
         "sat_pct": 0.0556,
         "n_points": 126
       },
       {
         "name": "Comedie",
-        "mean_occ": 0.5053,
+        "mean_occ": 0.5044,
         "max_occ": 0.9505,
         "sat_pct": 0.0317,
         "n_points": 126
       },
       {
         "name": "Vicarello",
-        "mean_occ": 0.4725,
+        "mean_occ": 0.4722,
         "max_occ": 0.8906,
         "sat_pct": 0.0,
         "n_points": 126
@@ -83,14 +83,14 @@
       },
       {
         "name": "Occitanie",
-        "mean_occ": 0.4618,
+        "mean_occ": 0.4619,
         "max_occ": 0.9463,
         "sat_pct": 0.0635,
         "n_points": 126
       },
       {
         "name": "Antigone",
-        "mean_occ": 0.3957,
+        "mean_occ": 0.3958,
         "max_occ": 0.5063,
         "sat_pct": 0.0,
         "n_points": 126
@@ -104,21 +104,21 @@
       },
       {
         "name": "Sabines",
-        "mean_occ": 0.364,
+        "mean_occ": 0.3634,
         "max_occ": 0.8842,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Sablassou",
-        "mean_occ": 0.339,
+        "mean_occ": 0.3393,
         "max_occ": 0.7678,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Mosson",
-        "mean_occ": 0.3229,
+        "mean_occ": 0.3244,
         "max_occ": 0.9146,
         "sat_pct": 0.0079,
         "n_points": 126
@@ -139,14 +139,14 @@
       },
       {
         "name": "Europa",
-        "mean_occ": 0.2807,
+        "mean_occ": 0.2806,
         "max_occ": 0.6447,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Foch",
-        "mean_occ": 0.2773,
+        "mean_occ": 0.2769,
         "max_occ": 0.5806,
         "sat_pct": 0.0,
         "n_points": 126
@@ -167,7 +167,7 @@
       },
       {
         "name": "Garcia Lorca",
-        "mean_occ": 0.0802,
+        "mean_occ": 0.0798,
         "max_occ": 0.2825,
         "sat_pct": 0.0,
         "n_points": 126
@@ -176,7 +176,7 @@
     "bikes": [
       {
         "name": "Hôtel du Département",
-        "mean_occ": 0.7788,
+        "mean_occ": 0.7808,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
@@ -190,7 +190,7 @@
       },
       {
         "name": "Hôtel de Ville",
-        "mean_occ": 0.7688,
+        "mean_occ": 0.7684,
         "max_occ": 1.0,
         "sat_pct": 0.1984,
         "n_points": 126
@@ -204,28 +204,28 @@
       },
       {
         "name": "Port Marianne",
-        "mean_occ": 0.7307,
+        "mean_occ": 0.7316,
         "max_occ": 1.0,
         "sat_pct": 0.2063,
         "n_points": 126
       },
       {
         "name": "Antigone centre",
-        "mean_occ": 0.6978,
+        "mean_occ": 0.7004,
         "max_occ": 1.0,
         "sat_pct": 0.3016,
         "n_points": 126
       },
       {
         "name": "Nouveau Saint-Roch",
-        "mean_occ": 0.6498,
+        "mean_occ": 0.6528,
         "max_occ": 1.0,
         "sat_pct": 0.0635,
         "n_points": 126
       },
       {
         "name": "Jeu de Mail des Abbés",
-        "mean_occ": 0.6131,
+        "mean_occ": 0.6141,
         "max_occ": 1.0,
         "sat_pct": 0.2619,
         "n_points": 126
@@ -239,98 +239,98 @@
       },
       {
         "name": "Aiguelongue",
-        "mean_occ": 0.5873,
+        "mean_occ": 0.5883,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Pérols Etang de l Or",
-        "mean_occ": 0.5505,
+        "mean_occ": 0.5502,
         "max_occ": 0.6324,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
-        "name": "Boutonnet",
-        "mean_occ": 0.543,
-        "max_occ": 1.0,
-        "sat_pct": 0.1508,
-        "n_points": 126
-      },
-      {
         "name": "Cité Mion",
-        "mean_occ": 0.5407,
+        "mean_occ": 0.5446,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
+        "name": "Boutonnet",
+        "mean_occ": 0.541,
+        "max_occ": 1.0,
+        "sat_pct": 0.1508,
+        "n_points": 126
+      },
+      {
         "name": "Foch",
-        "mean_occ": 0.5377,
+        "mean_occ": 0.5357,
         "max_occ": 1.0,
         "sat_pct": 0.0079,
         "n_points": 126
       },
       {
         "name": "Voltaire",
-        "mean_occ": 0.5278,
+        "mean_occ": 0.5298,
         "max_occ": 1.0,
         "sat_pct": 0.0635,
         "n_points": 126
       },
       {
         "name": "Emile Combes",
-        "mean_occ": 0.5208,
+        "mean_occ": 0.5179,
         "max_occ": 1.0,
         "sat_pct": 0.1349,
         "n_points": 126
       },
       {
         "name": "Père Soulas",
-        "mean_occ": 0.5149,
+        "mean_occ": 0.5139,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Observatoire",
-        "mean_occ": 0.5129,
+        "mean_occ": 0.5089,
         "max_occ": 1.0,
-        "sat_pct": 0.0159,
-        "n_points": 126
-      },
-      {
-        "name": "Médiathèque Emile Zola",
-        "mean_occ": 0.497,
-        "max_occ": 0.75,
-        "sat_pct": 0.0,
+        "sat_pct": 0.0079,
         "n_points": 126
       },
       {
         "name": "Jardin de la Lironde",
-        "mean_occ": 0.495,
+        "mean_occ": 0.5,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
+        "name": "Médiathèque Emile Zola",
+        "mean_occ": 0.4965,
+        "max_occ": 0.75,
+        "sat_pct": 0.0,
+        "n_points": 126
+      },
+      {
         "name": "Nombre d Or",
-        "mean_occ": 0.4906,
+        "mean_occ": 0.4886,
         "max_occ": 0.6875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Occitanie",
-        "mean_occ": 0.4849,
+        "mean_occ": 0.4836,
         "max_occ": 0.6562,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Beaux-Arts",
-        "mean_occ": 0.4816,
+        "mean_occ": 0.4812,
         "max_occ": 0.5625,
         "sat_pct": 0.0,
         "n_points": 126
@@ -344,100 +344,100 @@
       },
       {
         "name": "Garcia Lorca",
-        "mean_occ": 0.4593,
+        "mean_occ": 0.4633,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Saint-Guilhem - Courreau",
-        "mean_occ": 0.4484,
+        "mean_occ": 0.4504,
         "max_occ": 0.75,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Tonnelles",
-        "mean_occ": 0.4484,
+        "mean_occ": 0.4464,
         "max_occ": 0.625,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Celleneuve",
-        "mean_occ": 0.4435,
+        "mean_occ": 0.4454,
         "max_occ": 0.75,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Albert 1er - Cathédrale",
-        "mean_occ": 0.4385,
+        "mean_occ": 0.4378,
         "max_occ": 0.5833,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Sabines",
-        "mean_occ": 0.4375,
+        "mean_occ": 0.4355,
         "max_occ": 0.75,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Les Aubes",
-        "mean_occ": 0.4038,
+        "mean_occ": 0.4028,
         "max_occ": 0.875,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Pont de Lattes - Gare Saint-Roch",
-        "mean_occ": 0.3889,
+        "mean_occ": 0.3909,
         "max_occ": 0.5833,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Euromédecine",
-        "mean_occ": 0.3621,
+        "mean_occ": 0.3611,
         "max_occ": 0.5,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
-        "name": "Corum",
-        "mean_occ": 0.3604,
-        "max_occ": 0.9167,
-        "sat_pct": 0.0159,
-        "n_points": 126
-      },
-      {
         "name": "Charles Flahault",
-        "mean_occ": 0.3591,
+        "mean_occ": 0.3601,
         "max_occ": 0.625,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
+        "name": "Corum",
+        "mean_occ": 0.3591,
+        "max_occ": 0.9167,
+        "sat_pct": 0.0159,
+        "n_points": 126
+      },
+      {
         "name": "Rondelet",
-        "mean_occ": 0.3571,
+        "mean_occ": 0.3542,
         "max_occ": 0.8125,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Marie Caizergues",
-        "mean_occ": 0.3522,
+        "mean_occ": 0.3502,
         "max_occ": 1.0,
         "sat_pct": 0.0079,
         "n_points": 126
       },
       {
         "name": "Place Viala",
-        "mean_occ": 0.3423,
-        "max_occ": 0.625,
-        "sat_pct": 0.0,
+        "mean_occ": 0.3492,
+        "max_occ": 1.0,
+        "sat_pct": 0.0079,
         "n_points": 126
       },
       {
@@ -448,9 +448,9 @@
         "n_points": 126
       },
       {
-        "name": "FacdesSciences",
-        "mean_occ": 0.3224,
-        "max_occ": 0.7917,
+        "name": "Place Albert 1er - St Charles",
+        "mean_occ": 0.3192,
+        "max_occ": 0.4444,
         "sat_pct": 0.0,
         "n_points": 126
       },
@@ -462,22 +462,22 @@
         "n_points": 126
       },
       {
-        "name": "Place Albert 1er - St Charles",
-        "mean_occ": 0.3172,
-        "max_occ": 0.4444,
+        "name": "FacdesSciences",
+        "mean_occ": 0.3185,
+        "max_occ": 0.7917,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Comédie",
-        "mean_occ": 0.3044,
+        "mean_occ": 0.3056,
         "max_occ": 0.8,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Jean de Beins",
-        "mean_occ": 0.3001,
+        "mean_occ": 0.3006,
         "max_occ": 0.4375,
         "sat_pct": 0.0,
         "n_points": 126
@@ -490,50 +490,50 @@
         "n_points": 126
       },
       {
-        "name": "Prés d Arènes",
-        "mean_occ": 0.2877,
-        "max_occ": 1.0,
-        "sat_pct": 0.0397,
-        "n_points": 126
-      },
-      {
         "name": "Plan Cabanes",
-        "mean_occ": 0.2864,
+        "mean_occ": 0.287,
         "max_occ": 0.5,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
+        "name": "Prés d Arènes",
+        "mean_occ": 0.2857,
+        "max_occ": 1.0,
+        "sat_pct": 0.0397,
+        "n_points": 126
+      },
+      {
         "name": "Gambetta",
-        "mean_occ": 0.2808,
+        "mean_occ": 0.2788,
         "max_occ": 0.625,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Louis Blanc",
-        "mean_occ": 0.2684,
+        "mean_occ": 0.2703,
         "max_occ": 0.625,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Parvis Jules Ferry - Gare Saint-Roch",
-        "mean_occ": 0.245,
+        "mean_occ": 0.2431,
         "max_occ": 0.75,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Les Arceaux",
-        "mean_occ": 0.1736,
+        "mean_occ": 0.1756,
         "max_occ": 0.375,
         "sat_pct": 0.0,
         "n_points": 126
       },
       {
         "name": "Malbosc",
-        "mean_occ": 0.1171,
+        "mean_occ": 0.1181,
         "max_occ": 0.375,
         "sat_pct": 0.0,
         "n_points": 126
@@ -578,7 +578,6 @@
   "city_curves": {
     "cars": {
       "timestamps": [
-        "2026-02-05T22:57:00",
         "2026-02-05T23:59:00",
         "2026-02-06T00:52:00",
         "2026-02-06T06:07:00",
@@ -703,10 +702,10 @@
         "2026-02-12T20:04:00",
         "2026-02-12T20:51:00",
         "2026-02-12T21:36:00",
-        "2026-02-12T22:35:00"
+        "2026-02-12T22:35:00",
+        "2026-02-12T23:34:00"
       ],
       "avg_occ": [
-        0.3856,
         0.356,
         0.3435,
         0.334,
@@ -831,12 +830,12 @@
         0.4303,
         0.4367,
         0.4269,
-        0.4059
+        0.4059,
+        0.3853
       ]
     },
     "bikes": {
       "timestamps": [
-        "2026-02-05T22:57:00",
         "2026-02-05T23:59:00",
         "2026-02-06T00:52:00",
         "2026-02-06T06:07:00",
@@ -961,10 +960,10 @@
         "2026-02-12T20:04:00",
         "2026-02-12T20:51:00",
         "2026-02-12T21:36:00",
-        "2026-02-12T22:35:00"
+        "2026-02-12T22:35:00",
+        "2026-02-12T23:34:00"
       ],
       "avg_occ": [
-        0.4223,
         0.4263,
         0.4214,
         0.4256,
@@ -1089,7 +1088,8 @@
         0.4347,
         0.429,
         0.43,
-        0.4324
+        0.4324,
+        0.442
       ]
     }
   }
