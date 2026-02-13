@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T12:31:55.818890+01:00",
+  "generated_at": "2026-02-13T14:02:44.120060+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 64,
+      "free": 46,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 86,
+      "free": 66,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 744,
+      "free": 719,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 258,
+      "free": 266,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 184,
+      "free": 169,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 61,
+      "free": 62,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 305,
+      "free": 307,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 397,
+      "free": 357,
       "total": 620,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -89,7 +89,7 @@
     {
       "id": "urn:ngsi-ld:parking:012",
       "name": "Garcia Lorca",
-      "free": 306,
+      "free": 309,
       "total": 400,
       "lat": 43.59098509,
       "lon": 3.8907158
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 361,
+      "free": 334,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 8,
+      "free": 51,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 116,
+      "free": 118,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 102,
+      "free": 125,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 111,
+      "free": 116,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -177,7 +177,7 @@
     {
       "id": "urn:ngsi-ld:parking:016",
       "name": "Saint Jean Le Sec",
-      "free": 168,
+      "free": 175,
       "total": 285,
       "lat": 43.57082225,
       "lon": 3.8379312
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 16,
+      "free": 18,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -221,7 +221,7 @@
     {
       "id": "urn:ngsi-ld:station:016",
       "name": "Antigone centre",
-      "free": 4,
+      "free": 3,
       "total": 12,
       "lat": 43.607942,
       "lon": 3.890634,
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 14,
+      "free": 13,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 11,
+      "free": 10,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -347,7 +347,7 @@
     {
       "id": "urn:ngsi-ld:station:007",
       "name": "Foch",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.610989,
       "lon": 3.873345,
@@ -365,7 +365,7 @@
     {
       "id": "urn:ngsi-ld:station:033",
       "name": "Garcia Lorca",
-      "free": 2,
+      "free": 1,
       "total": 8,
       "lat": 43.590757,
       "lon": 3.890616,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 34,
+      "free": 33,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -563,7 +563,7 @@
     {
       "id": "urn:ngsi-ld:station:047",
       "name": "Place Viala",
-      "free": 2,
+      "free": 3,
       "total": 8,
       "lat": 43.616812,
       "lon": 3.855075,
@@ -599,7 +599,7 @@
     {
       "id": "urn:ngsi-ld:station:032",
       "name": "Prés d Arènes",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.59048,
       "lon": 3.884611,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 5,
+      "free": 6,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
@@ -626,7 +626,7 @@
     {
       "id": "urn:ngsi-ld:station:029",
       "name": "Richter",
-      "free": 6,
+      "free": 7,
       "total": 16,
       "lat": 43.603424,
       "lon": 3.899263,
@@ -644,7 +644,7 @@
     {
       "id": "urn:ngsi-ld:station:001",
       "name": "Rue Jules Ferry - Gare Saint-Roch",
-      "free": 6,
+      "free": 5,
       "total": 12,
       "lat": 43.605366,
       "lon": 3.881346,
