@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T23:26:18.306367+01:00",
+  "generated_at": "2026-02-16T00:28:11.762468+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -9,7 +9,7 @@
     {
       "id": "urn:ngsi-ld:parking:001",
       "name": "Antigone",
-      "free": 153,
+      "free": 154,
       "total": 239,
       "lat": 43.60871606,
       "lon": 3.88881893
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 161,
+      "free": 169,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 185,
+      "free": 183,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1156,
+      "free": 1168,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 423,
+      "free": 436,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 332,
+      "free": 337,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 533,
+      "free": 549,
       "total": 620,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 197,
+      "free": 196,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 479,
+      "free": 512,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 251,
+      "free": 255,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 10,
+      "free": 11,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -410,7 +410,7 @@
     {
       "id": "urn:ngsi-ld:station:061",
       "name": "Jean de Beins",
-      "free": 10,
+      "free": 9,
       "total": 16,
       "lat": 43.609857,
       "lon": 3.883884,
@@ -464,7 +464,7 @@
     {
       "id": "urn:ngsi-ld:station:042",
       "name": "Marie Caizergues",
-      "free": 4,
+      "free": 3,
       "total": 8,
       "lat": 43.619871,
       "lon": 3.873812,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 23,
+      "free": 21,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -572,7 +572,7 @@
     {
       "id": "urn:ngsi-ld:station:011",
       "name": "Plan Cabanes",
-      "free": 10,
+      "free": 9,
       "total": 12,
       "lat": 43.608491,
       "lon": 3.868389,
