@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T03:11:46.398929+01:00",
+  "generated_at": "2026-02-24T05:52:41.784190+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 464,
+      "free": 461,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 333,
+      "free": 332,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 193,
+      "free": 192,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 482,
+      "free": 481,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 178,
+      "free": 179,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 401,
+      "free": 364,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 324,
+      "free": 320,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 505,
+      "free": 500,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 181,
+      "free": 176,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 289,
+      "free": 287,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 32,
+      "free": 33,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -365,7 +365,7 @@
     {
       "id": "urn:ngsi-ld:station:033",
       "name": "Garcia Lorca",
-      "free": 4,
+      "free": 3,
       "total": 8,
       "lat": 43.590757,
       "lon": 3.890616,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 2,
+      "free": 1,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -644,7 +644,7 @@
     {
       "id": "urn:ngsi-ld:station:001",
       "name": "Rue Jules Ferry - Gare Saint-Roch",
-      "free": 6,
+      "free": 9,
       "total": 12,
       "lat": 43.605366,
       "lon": 3.881346,
@@ -653,7 +653,7 @@
     {
       "id": "urn:ngsi-ld:station:043",
       "name": "Sabines",
-      "free": 4,
+      "free": 1,
       "total": 8,
       "lat": 43.584211,
       "lon": 3.860031,
