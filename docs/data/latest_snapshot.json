@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T23:23:50.864845+01:00",
+  "generated_at": "2026-03-01T00:23:27.135450+01:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -9,7 +9,7 @@
     {
       "id": "urn:ngsi-ld:parking:001",
       "name": "Antigone",
-      "free": 149,
+      "free": 154,
       "total": 239,
       "lat": 43.60871606,
       "lon": 3.88881893
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 78,
+      "free": 114,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 156,
+      "free": 154,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1087,
+      "free": 1132,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 191,
+      "free": 297,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 213,
+      "free": 248,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 166,
+      "free": 167,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 504,
+      "free": 507,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 316,
+      "free": 379,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 189,
+      "free": 203,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 390,
+      "free": 408,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 159,
+      "free": 161,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 457,
+      "free": 470,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 226,
+      "free": 230,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 277,
+      "free": 283,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -203,7 +203,7 @@
     {
       "id": "urn:ngsi-ld:station:039",
       "name": "Aiguelongue",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.626163,
       "lon": 3.882492,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 2,
+      "free": 6,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 11,
+      "free": 10,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 10,
+      "free": 12,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -590,7 +590,7 @@
     {
       "id": "urn:ngsi-ld:station:021",
       "name": "Port Marianne",
-      "free": 10,
+      "free": 8,
       "total": 16,
       "lat": 43.60032,
       "lon": 3.89851,
@@ -671,7 +671,7 @@
     {
       "id": "urn:ngsi-ld:station:057",
       "name": "Saint-Guilhem - Courreau",
-      "free": 8,
+      "free": 7,
       "total": 8,
       "lat": 43.608996,
       "lon": 3.872752,
