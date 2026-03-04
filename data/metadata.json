@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T14:59:00.718896+01:00",
+  "generated_at": "2026-03-04T15:37:58.898448+01:00",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
     "bikes": "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000"
@@ -411,6 +411,11 @@
       "lat": 43.603767,
       "lon": 3.888659,
       "id": "urn:ngsi-ld:station:031"
+    },
+    "Fac des Sciences": {
+      "lat": 43.631318,
+      "lon": 3.861299,
+      "id": "urn:ngsi-ld:station:037"
     }
   }
 }
