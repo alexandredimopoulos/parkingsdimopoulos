@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T00:32:43.437872+02:00",
+  "generated_at": "2026-04-06T01:35:13.108295+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 166,
+      "free": 175,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 161,
+      "free": 160,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1172,
+      "free": 1182,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 444,
+      "free": 462,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 346,
+      "free": 355,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 123,
+      "free": 124,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 439,
+      "free": 489,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 489,
+      "free": 487,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 473,
+      "free": 475,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 127,
+      "free": 125,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 330,
+      "free": 331,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -221,7 +221,7 @@
     {
       "id": "urn:ngsi-ld:station:016",
       "name": "Antigone centre",
-      "free": 8,
+      "free": 9,
       "total": 12,
       "lat": 43.607942,
       "lon": 3.890634,
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 9,
+      "free": 10,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 9,
+      "free": 14,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 6,
+      "free": 7,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "Fac des Sciences",
-      "free": 15,
+      "free": 16,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -347,7 +347,7 @@
     {
       "id": "urn:ngsi-ld:station:007",
       "name": "Foch",
-      "free": 6,
+      "free": 5,
       "total": 8,
       "lat": 43.610989,
       "lon": 3.873345,
@@ -383,7 +383,7 @@
     {
       "id": "urn:ngsi-ld:station:004",
       "name": "Hôtel de Ville",
-      "free": 3,
+      "free": 1,
       "total": 16,
       "lat": 43.599088,
       "lon": 3.894866,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 7,
+      "free": 8,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 2,
+      "free": 3,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -644,7 +644,7 @@
     {
       "id": "urn:ngsi-ld:station:001",
       "name": "Rue Jules Ferry - Gare Saint-Roch",
-      "free": 7,
+      "free": 9,
       "total": 12,
       "lat": 43.605366,
       "lon": 3.881346,
