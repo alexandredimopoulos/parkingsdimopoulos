@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T01:36:59.975228+02:00",
+  "generated_at": "2026-04-07T04:32:17.050565+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1184,
+      "free": 1173,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 473,
+      "free": 474,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 353,
+      "free": 355,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 508,
+      "free": 507,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 201,
+      "free": 203,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 503,
+      "free": 502,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 320,
+      "free": 319,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 37,
+      "free": 34,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 53,
+      "free": 52,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -212,7 +212,7 @@
     {
       "id": "urn:ngsi-ld:station:056",
       "name": "Albert 1er - Cathédrale",
-      "free": 4,
+      "free": 5,
       "total": 12,
       "lat": 43.614005,
       "lon": 3.873218,
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 8,
+      "free": 9,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 7,
+      "free": 6,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 12,
+      "free": 11,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "Fac des Sciences",
-      "free": 18,
+      "free": 19,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -383,7 +383,7 @@
     {
       "id": "urn:ngsi-ld:station:004",
       "name": "Hôtel de Ville",
-      "free": 1,
+      "free": 2,
       "total": 16,
       "lat": 43.599088,
       "lon": 3.894866,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 13,
+      "free": 12,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 16,
+      "free": 17,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -590,7 +590,7 @@
     {
       "id": "urn:ngsi-ld:station:021",
       "name": "Port Marianne",
-      "free": 0,
+      "free": 1,
       "total": 16,
       "lat": 43.60032,
       "lon": 3.89851,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 6,
+      "free": 5,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
@@ -653,7 +653,7 @@
     {
       "id": "urn:ngsi-ld:station:043",
       "name": "Sabines",
-      "free": 2,
+      "free": 1,
       "total": 8,
       "lat": 43.584211,
       "lon": 3.860031,
