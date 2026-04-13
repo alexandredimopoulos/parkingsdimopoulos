@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T01:36:40.387140+02:00",
+  "generated_at": "2026-04-13T04:47:26.665915+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -9,7 +9,7 @@
     {
       "id": "urn:ngsi-ld:parking:001",
       "name": "Antigone",
-      "free": 148,
+      "free": 147,
       "total": 239,
       "lat": 43.60871606,
       "lon": 3.88881893
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 172,
+      "free": 173,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 143,
+      "free": 142,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1173,
+      "free": 1172,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 453,
+      "free": 460,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 364,
+      "free": 362,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 504,
+      "free": 503,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 499,
+      "free": 500,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 189,
+      "free": 188,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 509,
+      "free": 510,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 323,
+      "free": 320,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 331,
+      "free": 330,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -257,7 +257,7 @@
     {
       "id": "urn:ngsi-ld:station:030",
       "name": "Charles Flahault",
-      "free": 5,
+      "free": 6,
       "total": 8,
       "lat": 43.622038,
       "lon": 3.86672,
@@ -383,7 +383,7 @@
     {
       "id": "urn:ngsi-ld:station:004",
       "name": "Hôtel de Ville",
-      "free": 9,
+      "free": 8,
       "total": 16,
       "lat": 43.599088,
       "lon": 3.894866,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 11,
+      "free": 13,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -491,7 +491,7 @@
     {
       "id": "urn:ngsi-ld:station:025",
       "name": "Nouveau Saint-Roch",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.599817,
       "lon": 3.875757,
@@ -572,7 +572,7 @@
     {
       "id": "urn:ngsi-ld:station:011",
       "name": "Plan Cabanes",
-      "free": 8,
+      "free": 7,
       "total": 12,
       "lat": 43.608491,
       "lon": 3.868389,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 9,
+      "free": 10,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -635,7 +635,7 @@
     {
       "id": "urn:ngsi-ld:station:010",
       "name": "Rondelet",
-      "free": 14,
+      "free": 13,
       "total": 16,
       "lat": 43.603038,
       "lon": 3.875796,
