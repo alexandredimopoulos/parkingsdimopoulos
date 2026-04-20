@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T01:37:48.754223+02:00",
+  "generated_at": "2026-04-20T04:48:35.858528+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -9,7 +9,7 @@
     {
       "id": "urn:ngsi-ld:parking:001",
       "name": "Antigone",
-      "free": 145,
+      "free": 144,
       "total": 239,
       "lat": 43.60871606,
       "lon": 3.88881893
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 467,
+      "free": 474,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 505,
+      "free": 506,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 215,
+      "free": 220,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 505,
+      "free": 506,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 328,
+      "free": 326,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 240,
+      "free": 236,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 9,
+      "free": 8,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -311,7 +311,7 @@
     {
       "id": "urn:ngsi-ld:station:013",
       "name": "Emile Combes",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.616742,
       "lon": 3.87998,
@@ -401,7 +401,7 @@
     {
       "id": "urn:ngsi-ld:station:045",
       "name": "Jardin de la Lironde",
-      "free": 1,
+      "free": 2,
       "total": 8,
       "lat": 43.60585,
       "lon": 3.911576,
@@ -473,7 +473,7 @@
     {
       "id": "urn:ngsi-ld:station:017",
       "name": "Médiathèque Emile Zola",
-      "free": 3,
+      "free": 2,
       "total": 16,
       "lat": 43.608218,
       "lon": 3.89314,
@@ -491,7 +491,7 @@
     {
       "id": "urn:ngsi-ld:station:025",
       "name": "Nouveau Saint-Roch",
-      "free": 5,
+      "free": 6,
       "total": 8,
       "lat": 43.599817,
       "lon": 3.875757,
@@ -653,7 +653,7 @@
     {
       "id": "urn:ngsi-ld:station:043",
       "name": "Sabines",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.584211,
       "lon": 3.860031,
