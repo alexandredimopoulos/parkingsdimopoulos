@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T00:39:45.249407+02:00",
+  "generated_at": "2026-04-27T01:40:21.257401+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1160,
+      "free": 1163,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 459,
+      "free": 464,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 305,
+      "free": 310,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 113,
+      "free": 114,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 495,
+      "free": 498,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 206,
+      "free": 207,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 407,
+      "free": 408,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 241,
+      "free": 242,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 4,
+      "free": 2,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 17,
+      "free": 16,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "Fac des Sciences",
-      "free": 17,
+      "free": 19,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 9,
+      "free": 8,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -500,7 +500,7 @@
     {
       "id": "urn:ngsi-ld:station:009",
       "name": "Observatoire",
-      "free": 1,
+      "free": 3,
       "total": 8,
       "lat": 43.606301,
       "lon": 3.87724,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 26,
+      "free": 27,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -653,7 +653,7 @@
     {
       "id": "urn:ngsi-ld:station:043",
       "name": "Sabines",
-      "free": 6,
+      "free": 4,
       "total": 8,
       "lat": 43.584211,
       "lon": 3.860031,
