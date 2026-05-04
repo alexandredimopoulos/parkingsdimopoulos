@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T01:48:44.535850+02:00",
+  "generated_at": "2026-05-04T04:57:10.516858+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 135,
+      "free": 136,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1167,
+      "free": 1174,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 474,
+      "free": 472,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 281,
+      "free": 282,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 481,
+      "free": 483,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 220,
+      "free": 223,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 319,
+      "free": 316,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 234,
+      "free": 230,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -212,7 +212,7 @@
     {
       "id": "urn:ngsi-ld:station:056",
       "name": "Albert 1er - Cathédrale",
-      "free": 10,
+      "free": 11,
       "total": 12,
       "lat": 43.614005,
       "lon": 3.873218,
@@ -230,7 +230,7 @@
     {
       "id": "urn:ngsi-ld:station:014",
       "name": "Beaux-Arts",
-      "free": 12,
+      "free": 11,
       "total": 16,
       "lat": 43.616698,
       "lon": 3.884981,
@@ -311,7 +311,7 @@
     {
       "id": "urn:ngsi-ld:station:013",
       "name": "Emile Combes",
-      "free": 4,
+      "free": 3,
       "total": 8,
       "lat": 43.616742,
       "lon": 3.87998,
@@ -320,7 +320,7 @@
     {
       "id": "urn:ngsi-ld:station:041",
       "name": "Euromédecine",
-      "free": 6,
+      "free": 5,
       "total": 8,
       "lat": 43.639119,
       "lon": 3.828199,
@@ -410,7 +410,7 @@
     {
       "id": "urn:ngsi-ld:station:061",
       "name": "Jean de Beins",
-      "free": 15,
+      "free": 14,
       "total": 16,
       "lat": 43.609857,
       "lon": 3.883884,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 9,
+      "free": 10,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -473,7 +473,7 @@
     {
       "id": "urn:ngsi-ld:station:017",
       "name": "Médiathèque Emile Zola",
-      "free": 11,
+      "free": 12,
       "total": 16,
       "lat": 43.608218,
       "lon": 3.89314,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 12,
+      "free": 13,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 1,
+      "free": 0,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -599,7 +599,7 @@
     {
       "id": "urn:ngsi-ld:station:032",
       "name": "Prés d Arènes",
-      "free": 4,
+      "free": 3,
       "total": 8,
       "lat": 43.59048,
       "lon": 3.884611,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 5,
+      "free": 6,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
@@ -644,7 +644,7 @@
     {
       "id": "urn:ngsi-ld:station:001",
       "name": "Rue Jules Ferry - Gare Saint-Roch",
-      "free": 4,
+      "free": 5,
       "total": 12,
       "lat": 43.605366,
       "lon": 3.881346,
@@ -653,7 +653,7 @@
     {
       "id": "urn:ngsi-ld:station:043",
       "name": "Sabines",
-      "free": 5,
+      "free": 6,
       "total": 8,
       "lat": 43.584211,
       "lon": 3.860031,
@@ -671,7 +671,7 @@
     {
       "id": "urn:ngsi-ld:station:057",
       "name": "Saint-Guilhem - Courreau",
-      "free": 6,
+      "free": 5,
       "total": 8,
       "lat": 43.608996,
       "lon": 3.872752,
@@ -698,7 +698,7 @@
     {
       "id": "urn:ngsi-ld:station:034",
       "name": "Vert Bois",
-      "free": 15,
+      "free": 14,
       "total": 16,
       "lat": 43.63543,
       "lon": 3.871179,
