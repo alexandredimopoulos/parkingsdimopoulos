@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T00:02:18.955526+02:00",
+  "generated_at": "2026-05-05T00:59:36.693297+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 169,
+      "free": 170,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1153,
+      "free": 1165,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 440,
+      "free": 453,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 275,
+      "free": 279,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 477,
+      "free": 482,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 304,
+      "free": 329,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 382,
+      "free": 385,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 279,
+      "free": 281,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -428,7 +428,7 @@
     {
       "id": "urn:ngsi-ld:station:023",
       "name": "Les Arceaux",
-      "free": 2,
+      "free": 3,
       "total": 8,
       "lat": 43.612659,
       "lon": 3.867734,
@@ -536,7 +536,7 @@
     {
       "id": "urn:ngsi-ld:station:046",
       "name": "Père Soulas",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.621983,
       "lon": 3.855603,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 26,
+      "free": 25,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
