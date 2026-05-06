@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T01:49:46.975923+02:00",
+  "generated_at": "2026-05-06T04:55:30.272292+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 167,
+      "free": 168,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 130,
+      "free": 131,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 448,
+      "free": 466,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 271,
+      "free": 268,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 504,
+      "free": 503,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 470,
+      "free": 480,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 318,
+      "free": 320,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 310,
+      "free": 309,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 280,
+      "free": 279,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 46,
+      "free": 45,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -212,7 +212,7 @@
     {
       "id": "urn:ngsi-ld:station:056",
       "name": "Albert 1er - Cathédrale",
-      "free": 6,
+      "free": 8,
       "total": 12,
       "lat": 43.614005,
       "lon": 3.873218,
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 7,
+      "free": 6,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 4,
+      "free": 2,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -410,7 +410,7 @@
     {
       "id": "urn:ngsi-ld:station:061",
       "name": "Jean de Beins",
-      "free": 14,
+      "free": 13,
       "total": 16,
       "lat": 43.609857,
       "lon": 3.883884,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 20,
+      "free": 19,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 22,
+      "free": 24,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 4,
+      "free": 7,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 6,
+      "free": 7,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
