@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T01:03:23.918508+02:00",
+  "generated_at": "2026-05-26T02:13:03.271552+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 140,
+      "free": 139,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1152,
+      "free": 1172,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 459,
+      "free": 467,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 307,
+      "free": 309,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 185,
+      "free": 186,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 492,
+      "free": 497,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 494,
+      "free": 505,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 212,
+      "free": 211,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -203,7 +203,7 @@
     {
       "id": "urn:ngsi-ld:station:039",
       "name": "Aiguelongue",
-      "free": 0,
+      "free": 3,
       "total": 8,
       "lat": 43.626163,
       "lon": 3.882492,
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 13,
+      "free": 14,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 7,
+      "free": 6,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 9,
+      "free": 8,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -401,7 +401,7 @@
     {
       "id": "urn:ngsi-ld:station:045",
       "name": "Jardin de la Lironde",
-      "free": 1,
+      "free": 2,
       "total": 8,
       "lat": 43.60585,
       "lon": 3.911576,
@@ -428,7 +428,7 @@
     {
       "id": "urn:ngsi-ld:station:023",
       "name": "Les Arceaux",
-      "free": 6,
+      "free": 7,
       "total": 8,
       "lat": 43.612659,
       "lon": 3.867734,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 27,
+      "free": 26,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -572,7 +572,7 @@
     {
       "id": "urn:ngsi-ld:station:011",
       "name": "Plan Cabanes",
-      "free": 8,
+      "free": 7,
       "total": 12,
       "lat": 43.608491,
       "lon": 3.868389,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 0,
+      "free": 1,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -608,7 +608,7 @@
     {
       "id": "urn:ngsi-ld:station:054",
       "name": "Providence - Ovalie",
-      "free": 6,
+      "free": 7,
       "total": 8,
       "lat": 43.588239,
       "lon": 3.853421,
@@ -626,7 +626,7 @@
     {
       "id": "urn:ngsi-ld:station:029",
       "name": "Richter",
-      "free": 12,
+      "free": 11,
       "total": 16,
       "lat": 43.603424,
       "lon": 3.899263,
@@ -635,7 +635,7 @@
     {
       "id": "urn:ngsi-ld:station:010",
       "name": "Rondelet",
-      "free": 14,
+      "free": 15,
       "total": 16,
       "lat": 43.603038,
       "lon": 3.875796,
@@ -671,7 +671,7 @@
     {
       "id": "urn:ngsi-ld:station:057",
       "name": "Saint-Guilhem - Courreau",
-      "free": 6,
+      "free": 7,
       "total": 8,
       "lat": 43.608996,
       "lon": 3.872752,
@@ -680,7 +680,7 @@
     {
       "id": "urn:ngsi-ld:station:059",
       "name": "Sud De France",
-      "free": 1,
+      "free": 2,
       "total": 8,
       "lat": 43.59562,
       "lon": 3.9235,
