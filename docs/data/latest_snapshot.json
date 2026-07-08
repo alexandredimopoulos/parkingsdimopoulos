@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T01:02:33.960043+02:00",
+  "generated_at": "2026-07-08T02:02:53.138863+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 169,
+      "free": 170,
       "total": 439,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 145,
+      "free": 144,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -33,7 +33,7 @@
     {
       "id": "urn:ngsi-ld:parking:011",
       "name": "Circe",
-      "free": 1156,
+      "free": 1171,
       "total": 1200,
       "lat": 43.60495377,
       "lon": 3.9178495
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 419,
+      "free": 447,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -49,7 +49,7 @@
     {
       "id": "urn:ngsi-ld:parking:004",
       "name": "Corum",
-      "free": 294,
+      "free": 300,
       "total": 480,
       "lat": 43.61388821,
       "lon": 3.88225773
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 493,
+      "free": 494,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 426,
+      "free": 451,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 250,
+      "free": 248,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 326,
+      "free": 330,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 289,
+      "free": 288,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 299,
+      "free": 302,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 283,
+      "free": 282,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 8,
+      "free": 7,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 15,
+      "free": 16,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 9,
+      "free": 8,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -365,7 +365,7 @@
     {
       "id": "urn:ngsi-ld:station:033",
       "name": "Garcia Lorca",
-      "free": 0,
+      "free": 1,
       "total": 8,
       "lat": 43.590757,
       "lon": 3.890616,
@@ -428,7 +428,7 @@
     {
       "id": "urn:ngsi-ld:station:023",
       "name": "Les Arceaux",
-      "free": 7,
+      "free": 5,
       "total": 8,
       "lat": 43.612659,
       "lon": 3.867734,
@@ -437,7 +437,7 @@
     {
       "id": "urn:ngsi-ld:station:015",
       "name": "Les Aubes",
-      "free": 1,
+      "free": 0,
       "total": 8,
       "lat": 43.618692,
       "lon": 3.893844,
@@ -473,7 +473,7 @@
     {
       "id": "urn:ngsi-ld:station:017",
       "name": "Médiathèque Emile Zola",
-      "free": 4,
+      "free": 5,
       "total": 16,
       "lat": 43.608218,
       "lon": 3.89314,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 10,
+      "free": 11,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -536,7 +536,7 @@
     {
       "id": "urn:ngsi-ld:station:046",
       "name": "Père Soulas",
-      "free": 3,
+      "free": 2,
       "total": 8,
       "lat": 43.621983,
       "lon": 3.855603,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 3,
+      "free": 5,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
