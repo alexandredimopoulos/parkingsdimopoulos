@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T12:34:39.011673+02:00",
+  "generated_at": "2026-07-12T14:00:18.688055+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -9,7 +9,7 @@
     {
       "id": "urn:ngsi-ld:parking:001",
       "name": "Antigone",
-      "free": 161,
+      "free": 163,
       "total": 239,
       "lat": 43.60871606,
       "lon": 3.88881893
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 199,
+      "free": 206,
       "total": 440,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 170,
+      "free": 168,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -41,7 +41,7 @@
     {
       "id": "urn:ngsi-ld:parking:003",
       "name": "Comedie",
-      "free": 428,
+      "free": 429,
       "total": 666,
       "lat": 43.60856092,
       "lon": 3.87976196
@@ -57,7 +57,7 @@
     {
       "id": "urn:ngsi-ld:parking:017",
       "name": "Euromedecine",
-      "free": 76,
+      "free": 75,
       "total": 239,
       "lat": 43.63895359,
       "lon": 3.82772365
@@ -65,7 +65,7 @@
     {
       "id": "urn:ngsi-ld:parking:005",
       "name": "Europa",
-      "free": 504,
+      "free": 509,
       "total": 591,
       "lat": 43.60784971,
       "lon": 3.89253074
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 448,
+      "free": 442,
       "total": 500,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -81,7 +81,7 @@
     {
       "id": "urn:ngsi-ld:parking:007",
       "name": "Gambetta",
-      "free": 255,
+      "free": 265,
       "total": 452,
       "lat": 43.60695138,
       "lon": 3.87137436
@@ -97,7 +97,7 @@
     {
       "id": "urn:ngsi-ld:parking:008",
       "name": "Gare",
-      "free": 431,
+      "free": 405,
       "total": 656,
       "lat": 43.604024,
       "lon": 3.87891
@@ -129,7 +129,7 @@
     {
       "id": "urn:ngsi-ld:parking:013",
       "name": "Mosson",
-      "free": 327,
+      "free": 328,
       "total": 328,
       "lat": 43.61623716,
       "lon": 3.81966554
@@ -137,7 +137,7 @@
     {
       "id": "urn:ngsi-ld:parking:018",
       "name": "Occitanie",
-      "free": 274,
+      "free": 271,
       "total": 615,
       "lat": 43.63456232,
       "lon": 3.84859796
@@ -161,7 +161,7 @@
     {
       "id": "urn:ngsi-ld:parking:014",
       "name": "Sabines",
-      "free": 250,
+      "free": 249,
       "total": 285,
       "lat": 43.58383263,
       "lon": 3.8602246
@@ -169,7 +169,7 @@
     {
       "id": "urn:ngsi-ld:parking:015",
       "name": "Sablassou",
-      "free": 346,
+      "free": 345,
       "total": 379,
       "lat": 43.63419194,
       "lon": 3.92229536
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 56,
+      "free": 57,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -203,7 +203,7 @@
     {
       "id": "urn:ngsi-ld:station:039",
       "name": "Aiguelongue",
-      "free": 2,
+      "free": 4,
       "total": 8,
       "lat": 43.626163,
       "lon": 3.882492,
@@ -383,7 +383,7 @@
     {
       "id": "urn:ngsi-ld:station:004",
       "name": "Hôtel de Ville",
-      "free": 14,
+      "free": 13,
       "total": 16,
       "lat": 43.599088,
       "lon": 3.894866,
@@ -437,7 +437,7 @@
     {
       "id": "urn:ngsi-ld:station:015",
       "name": "Les Aubes",
-      "free": 3,
+      "free": 2,
       "total": 8,
       "lat": 43.618692,
       "lon": 3.893844,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 11,
+      "free": 10,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -464,7 +464,7 @@
     {
       "id": "urn:ngsi-ld:station:042",
       "name": "Marie Caizergues",
-      "free": 0,
+      "free": 1,
       "total": 8,
       "lat": 43.619871,
       "lon": 3.873812,
@@ -473,7 +473,7 @@
     {
       "id": "urn:ngsi-ld:station:017",
       "name": "Médiathèque Emile Zola",
-      "free": 11,
+      "free": 12,
       "total": 16,
       "lat": 43.608218,
       "lon": 3.89314,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 20,
+      "free": 19,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 52,
+      "free": 53,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 14,
+      "free": 13,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -572,7 +572,7 @@
     {
       "id": "urn:ngsi-ld:station:011",
       "name": "Plan Cabanes",
-      "free": 7,
+      "free": 8,
       "total": 12,
       "lat": 43.608491,
       "lon": 3.868389,
@@ -626,7 +626,7 @@
     {
       "id": "urn:ngsi-ld:station:029",
       "name": "Richter",
-      "free": 13,
+      "free": 14,
       "total": 16,
       "lat": 43.603424,
       "lon": 3.899263,
@@ -680,7 +680,7 @@
     {
       "id": "urn:ngsi-ld:station:059",
       "name": "Sud De France",
-      "free": 2,
+      "free": 3,
       "total": 8,
       "lat": 43.59562,
       "lon": 3.9235,
