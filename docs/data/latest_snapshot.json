@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T18:34:21.343441+02:00",
+  "generated_at": "2026-07-13T20:44:03.910284+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 12,
+      "free": 14,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -293,7 +293,7 @@
     {
       "id": "urn:ngsi-ld:station:005",
       "name": "Corum",
-      "free": 7,
+      "free": 6,
       "total": 12,
       "lat": 43.613989,
       "lon": 3.8816,
@@ -392,7 +392,7 @@
     {
       "id": "urn:ngsi-ld:station:048",
       "name": "Hôtel du Département",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.621682,
       "lon": 3.83477,
@@ -437,7 +437,7 @@
     {
       "id": "urn:ngsi-ld:station:015",
       "name": "Les Aubes",
-      "free": 1,
+      "free": 0,
       "total": 8,
       "lat": 43.618692,
       "lon": 3.893844,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 22,
+      "free": 21,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -527,7 +527,7 @@
     {
       "id": "urn:ngsi-ld:station:050",
       "name": "Parvis Jules Ferry - Gare Saint-Roch",
-      "free": 3,
+      "free": 1,
       "total": 8,
       "lat": 43.603889,
       "lon": 3.879362,
@@ -536,7 +536,7 @@
     {
       "id": "urn:ngsi-ld:station:046",
       "name": "Père Soulas",
-      "free": 0,
+      "free": 1,
       "total": 8,
       "lat": 43.621983,
       "lon": 3.855603,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 34,
+      "free": 30,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -590,7 +590,7 @@
     {
       "id": "urn:ngsi-ld:station:021",
       "name": "Port Marianne",
-      "free": 10,
+      "free": 11,
       "total": 16,
       "lat": 43.60032,
       "lon": 3.89851,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 4,
+      "free": 5,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
@@ -680,7 +680,7 @@
     {
       "id": "urn:ngsi-ld:station:059",
       "name": "Sud De France",
-      "free": 5,
+      "free": 3,
       "total": 8,
       "lat": 43.59562,
       "lon": 3.9235,
@@ -689,7 +689,7 @@
     {
       "id": "urn:ngsi-ld:station:049",
       "name": "Tonnelles",
-      "free": 4,
+      "free": 5,
       "total": 8,
       "lat": 43.615155,
       "lon": 3.839466,
@@ -707,7 +707,7 @@
     {
       "id": "urn:ngsi-ld:station:031",
       "name": "Voltaire",
-      "free": 4,
+      "free": 5,
       "total": 8,
       "lat": 43.603767,
       "lon": 3.888659,
