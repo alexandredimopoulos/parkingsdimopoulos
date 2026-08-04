@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:27:31.390776+02:00",
+  "generated_at": "2026-08-04T19:49:19.051001+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 142,
+      "free": 118,
       "total": 437,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 94,
+      "free": 121,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 325,
+      "free": 321,
       "total": 499,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -193,7 +193,7 @@
     {
       "id": "urn:ngsi-ld:parking:019",
       "name": "Vicarello",
-      "free": 39,
+      "free": 44,
       "total": 64,
       "lat": 43.63286,
       "lon": 3.898411
@@ -239,7 +239,7 @@
     {
       "id": "urn:ngsi-ld:station:012",
       "name": "Boutonnet",
-      "free": 8,
+      "free": 10,
       "total": 12,
       "lat": 43.622629,
       "lon": 3.868375,
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 11,
+      "free": 10,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "Fac des Sciences",
-      "free": 19,
+      "free": 21,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -356,7 +356,7 @@
     {
       "id": "urn:ngsi-ld:station:020",
       "name": "Gambetta",
-      "free": 4,
+      "free": 5,
       "total": 8,
       "lat": 43.607106,
       "lon": 3.870693,
@@ -365,7 +365,7 @@
     {
       "id": "urn:ngsi-ld:station:033",
       "name": "Garcia Lorca",
-      "free": 5,
+      "free": 0,
       "total": 8,
       "lat": 43.590757,
       "lon": 3.890616,
@@ -383,7 +383,7 @@
     {
       "id": "urn:ngsi-ld:station:004",
       "name": "Hôtel de Ville",
-      "free": 9,
+      "free": 12,
       "total": 16,
       "lat": 43.599088,
       "lon": 3.894866,
@@ -392,7 +392,7 @@
     {
       "id": "urn:ngsi-ld:station:048",
       "name": "Hôtel du Département",
-      "free": 6,
+      "free": 4,
       "total": 8,
       "lat": 43.621682,
       "lon": 3.83477,
@@ -446,7 +446,7 @@
     {
       "id": "urn:ngsi-ld:station:019",
       "name": "Louis Blanc",
-      "free": 10,
+      "free": 11,
       "total": 16,
       "lat": 43.614642,
       "lon": 3.877648,
@@ -455,7 +455,7 @@
     {
       "id": "urn:ngsi-ld:station:035",
       "name": "Malbosc",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.633679,
       "lon": 3.832861,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 12,
+      "free": 9,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -500,7 +500,7 @@
     {
       "id": "urn:ngsi-ld:station:009",
       "name": "Observatoire",
-      "free": 4,
+      "free": 1,
       "total": 8,
       "lat": 43.606301,
       "lon": 3.87724,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 26,
+      "free": 28,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 37,
+      "free": 39,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -554,7 +554,7 @@
     {
       "id": "urn:ngsi-ld:station:006",
       "name": "Place Albert 1er - St Charles",
-      "free": 21,
+      "free": 20,
       "total": 27,
       "lat": 43.616768,
       "lon": 3.873375,
@@ -581,7 +581,7 @@
     {
       "id": "urn:ngsi-ld:station:051",
       "name": "Pont de Lattes - Gare Saint-Roch",
-      "free": 6,
+      "free": 8,
       "total": 12,
       "lat": 43.606036,
       "lon": 3.882393,
@@ -590,7 +590,7 @@
     {
       "id": "urn:ngsi-ld:station:021",
       "name": "Port Marianne",
-      "free": 6,
+      "free": 4,
       "total": 16,
       "lat": 43.60032,
       "lon": 3.89851,
@@ -608,7 +608,7 @@
     {
       "id": "urn:ngsi-ld:station:054",
       "name": "Providence - Ovalie",
-      "free": 7,
+      "free": 8,
       "total": 8,
       "lat": 43.588239,
       "lon": 3.853421,
@@ -671,7 +671,7 @@
     {
       "id": "urn:ngsi-ld:station:057",
       "name": "Saint-Guilhem - Courreau",
-      "free": 7,
+      "free": 6,
       "total": 8,
       "lat": 43.608996,
       "lon": 3.872752,
@@ -689,7 +689,7 @@
     {
       "id": "urn:ngsi-ld:station:049",
       "name": "Tonnelles",
-      "free": 3,
+      "free": 4,
       "total": 8,
       "lat": 43.615155,
       "lon": 3.839466,
@@ -698,7 +698,7 @@
     {
       "id": "urn:ngsi-ld:station:034",
       "name": "Vert Bois",
-      "free": 12,
+      "free": 13,
       "total": 16,
       "lat": 43.63543,
       "lon": 3.871179,
