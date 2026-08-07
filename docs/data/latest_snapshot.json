@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:55:47.997565+02:00",
+  "generated_at": "2026-08-07T13:45:42.607659+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 354,
+      "free": 345,
       "total": 499,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 10,
+      "free": 9,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "Fac des Sciences",
-      "free": 21,
+      "free": 20,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -419,7 +419,7 @@
     {
       "id": "urn:ngsi-ld:station:040",
       "name": "Jeu de Mail des Abbés",
-      "free": 8,
+      "free": 7,
       "total": 8,
       "lat": 43.619701,
       "lon": 3.883831,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 52,
+      "free": 53,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -617,7 +617,7 @@
     {
       "id": "urn:ngsi-ld:station:026",
       "name": "Renouvier",
-      "free": 3,
+      "free": 4,
       "total": 8,
       "lat": 43.603553,
       "lon": 3.867884,
@@ -653,7 +653,7 @@
     {
       "id": "urn:ngsi-ld:station:043",
       "name": "Sabines",
-      "free": 4,
+      "free": 5,
       "total": 8,
       "lat": 43.584211,
       "lon": 3.860031,
