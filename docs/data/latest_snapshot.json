@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:16:19.859083+02:00",
+  "generated_at": "2026-08-07T17:56:44.062482+02:00",
   "timezone": "Europe/Paris",
   "sources": {
     "cars": "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000",
@@ -17,7 +17,7 @@
     {
       "id": "urn:ngsi-ld:parking:002",
       "name": "Arc de Triomphe",
-      "free": 141,
+      "free": 179,
       "total": 437,
       "lat": 43.61100267,
       "lon": 3.8732007
@@ -25,7 +25,7 @@
     {
       "id": "urn:ngsi-ld:parking:022",
       "name": "Charles de Gaulle",
-      "free": 97,
+      "free": 99,
       "total": 260,
       "lat": 43.6285421,
       "lon": 3.8977621
@@ -73,7 +73,7 @@
     {
       "id": "urn:ngsi-ld:parking:006",
       "name": "Foch",
-      "free": 369,
+      "free": 396,
       "total": 499,
       "lat": 43.61074912,
       "lon": 3.87657084
@@ -212,7 +212,7 @@
     {
       "id": "urn:ngsi-ld:station:056",
       "name": "Albert 1er - Cathédrale",
-      "free": 10,
+      "free": 11,
       "total": 12,
       "lat": 43.614005,
       "lon": 3.873218,
@@ -221,7 +221,7 @@
     {
       "id": "urn:ngsi-ld:station:016",
       "name": "Antigone centre",
-      "free": 7,
+      "free": 8,
       "total": 12,
       "lat": 43.607942,
       "lon": 3.890634,
@@ -248,7 +248,7 @@
     {
       "id": "urn:ngsi-ld:station:044",
       "name": "Celleneuve",
-      "free": 7,
+      "free": 8,
       "total": 8,
       "lat": 43.61467,
       "lon": 3.832624,
@@ -266,7 +266,7 @@
     {
       "id": "urn:ngsi-ld:station:024",
       "name": "Cité Mion",
-      "free": 5,
+      "free": 4,
       "total": 8,
       "lat": 43.601143,
       "lon": 3.884373,
@@ -275,7 +275,7 @@
     {
       "id": "urn:ngsi-ld:station:002",
       "name": "Comédie",
-      "free": 16,
+      "free": 17,
       "total": 20,
       "lat": 43.608148,
       "lon": 3.878778,
@@ -311,7 +311,7 @@
     {
       "id": "urn:ngsi-ld:station:013",
       "name": "Emile Combes",
-      "free": 3,
+      "free": 5,
       "total": 8,
       "lat": 43.616742,
       "lon": 3.87998,
@@ -329,7 +329,7 @@
     {
       "id": "urn:ngsi-ld:station:038",
       "name": "Fac de Lettres",
-      "free": 7,
+      "free": 8,
       "total": 12,
       "lat": 43.630437,
       "lon": 3.869539,
@@ -338,7 +338,7 @@
     {
       "id": "urn:ngsi-ld:station:037",
       "name": "Fac des Sciences",
-      "free": 19,
+      "free": 20,
       "total": 24,
       "lat": 43.631318,
       "lon": 3.861299,
@@ -401,7 +401,7 @@
     {
       "id": "urn:ngsi-ld:station:045",
       "name": "Jardin de la Lironde",
-      "free": 3,
+      "free": 5,
       "total": 8,
       "lat": 43.60585,
       "lon": 3.911576,
@@ -419,7 +419,7 @@
     {
       "id": "urn:ngsi-ld:station:040",
       "name": "Jeu de Mail des Abbés",
-      "free": 7,
+      "free": 8,
       "total": 8,
       "lat": 43.619701,
       "lon": 3.883831,
@@ -473,7 +473,7 @@
     {
       "id": "urn:ngsi-ld:station:017",
       "name": "Médiathèque Emile Zola",
-      "free": 12,
+      "free": 13,
       "total": 16,
       "lat": 43.608218,
       "lon": 3.89314,
@@ -482,7 +482,7 @@
     {
       "id": "urn:ngsi-ld:station:018",
       "name": "Nombre d Or",
-      "free": 13,
+      "free": 12,
       "total": 16,
       "lat": 43.607859,
       "lon": 3.886644,
@@ -509,7 +509,7 @@
     {
       "id": "urn:ngsi-ld:station:036",
       "name": "Occitanie",
-      "free": 23,
+      "free": 25,
       "total": 32,
       "lat": 43.635689,
       "lon": 3.849597,
@@ -545,7 +545,7 @@
     {
       "id": "urn:ngsi-ld:station:055",
       "name": "Pérols Etang de l Or",
-      "free": 52,
+      "free": 51,
       "total": 68,
       "lat": 43.558351,
       "lon": 3.963412,
@@ -572,7 +572,7 @@
     {
       "id": "urn:ngsi-ld:station:011",
       "name": "Plan Cabanes",
-      "free": 10,
+      "free": 9,
       "total": 12,
       "lat": 43.608491,
       "lon": 3.868389,
@@ -626,7 +626,7 @@
     {
       "id": "urn:ngsi-ld:station:029",
       "name": "Richter",
-      "free": 13,
+      "free": 11,
       "total": 16,
       "lat": 43.603424,
       "lon": 3.899263,
@@ -644,7 +644,7 @@
     {
       "id": "urn:ngsi-ld:station:001",
       "name": "Rue Jules Ferry - Gare Saint-Roch",
-      "free": 4,
+      "free": 1,
       "total": 12,
       "lat": 43.605366,
       "lon": 3.881346,
